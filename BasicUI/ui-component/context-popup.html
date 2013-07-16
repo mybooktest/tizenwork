@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Navigation</title>
+    <!--NOTE:
+        jquery.js and web-ui-fw.js must be included.
+        DO NOT REMOVE below code!
+    -->
+    <script src="tizen-web-ui-fw/latest/js/jquery.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js"
+        data-framework-theme="tizen-white"></script>
+
+    <!--NOTE:
+        Additional scripts and css files are to be placed here.
+        You can use jQuery namespace($) and all functionalities in jQuery
+        in your script.  For example:
+
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="my.css">
+    -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed" data-id="foo">
+            <h1>Context Popup</h1>
+        </div><!-- /header -->
+        
+        <div data-role="content">
+			<!--Target button-->
+			<a href="#pop_3_icons" id="btn_3_icons" data-role="button" data-inline="true" data-rel="popup">3 Icons</a>
+			
+			<!--Context pop-up-->
+			<div id="pop_3_icons" data-role="popup" >
+			   <ul data-role="listview">
+			      <li class="text">
+			         <a href="#">Copy</a>
+			      </li>
+			      <li class="text">
+			         <a href="#">All</a>
+			      </li>
+			      <li class="text">
+			         <a href="#">Paste</a>
+			      </li>
+			   </ul>
+			</div>
+        </div>
+
+        <div data-role="footer" data-id="foo1">
+            <div data-role="controlgroup" data-type="horizontal">
+                <a data-role="button" data-icon="back" href="../index.html">Back</a>
+            </div>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>

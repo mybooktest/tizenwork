@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://thinkbee.kr/BasicUI" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="gjZHAqYXCG.TizenUIComponent" package="gjZHAqYXCG" required_version="2.1"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/api/mediacontent"/>
+    <icon src="icon.png"/>
+    <name>BasicUI</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+</widget>

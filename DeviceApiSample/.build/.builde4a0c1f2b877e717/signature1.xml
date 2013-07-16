@@ -1,0 +1,2916 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fxaXV0sgapDgiKxQrXgmen1hThBObf0DxSiJTfBYsRY=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dM/6WYNuANW1TBJ+u54yDR/OoTN29tVW/eiQdYavUq4=</DigestValue>
+</Reference>
+<Reference URI="css/style.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mm/qfPVk5qlb95kHs5PHHhY2npluQUQ9UCUyZBCJeYY=</DigestValue>
+</Reference>
+<Reference URI="device_apis/applications.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VBnu5LfBA99L6xk4Mlo2sG50tFILBDoDTLZnYISFJgU=</DigestValue>
+</Reference>
+<Reference URI="device_apis/battery.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pUk+5cK9xXmuR1WdXXiVhz38hVYB037m6cbmZiuMFuk=</DigestValue>
+</Reference>
+<Reference URI="device_apis/fs_pictures.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LBLtlZFUHE/MtOl0RxrPaOZ+hSX4jVinaUwSEpdctNc=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uMEXnBdqQrsA5sU0dkGU6/dJUoL4saHOFMmftURI1lE=</DigestValue>
+</Reference>
+<Reference URI="js/main.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FpPU+De/TbtNMOaNRUFM913zG19mlXHm8XhpIeFEW3A=</DigestValue>
+</Reference>
+<Reference URI="section1.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0OzagWYmzR5WAHCeiYbXl0TOfUrv4E9uByEKavs00bE=</DigestValue>
+</Reference>
+<Reference URI="section2.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4pDfGQZOqij8UMuKl1Uy9SQE5OVfqw3MfTcFZFriaS0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.af-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xJN+Lao5/QmarQQRR8OM5hUWu1HxmaV2drsXV1QeONA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.af.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R8EchiFDByDAAKJid2lNkhiJs1JDQzrBPl/bxNExnZA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.am-ET.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cgavLYp6f7vAmfHub6X6LKbcFNkImaqhkODyNSx/Rzc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.am.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fAxz3A4WYw56/EiYup7WgQNbpFNOOd3Q78v8497/eio=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-AE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QyvvCITM4Ngr5HR2ja1zYO+AJBu8lpjoE2N1JePI+vs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-BH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p2Fkaeci08d7A2UmnHniaWvMpFERKYho40+KpUIFtO0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-DZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jR1RClqkAASnr6OLcNA0lWsSd6I3woUJkFDQktJazrs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-EG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GHU4UPuHhyt1s3GSYdzi5tQQMZ1/kkKI9w3VlDW7o/I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-IQ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>I/urgV4f9DNLZjs/OaVECGCXzWE64+yWbdd++YRgagU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-JO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VebzsOnrB3hb0rm58NGgU2tuJVzwIgG4zCX7Wl8f0X8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-KW.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vEev2QvXsT2MBf0amVm0q6mc/okG/+yzBEVi+WlhEOY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-LB.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>syV3P5Vn18WZhBaQAVwSRv1yuIMLkq0V2htCtU6ZcD8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-LY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xZ6E+Ba1H24Upt3RTOCM8Nm8qZ/JHfS9zzIkICr1ND0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-MA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EegPFiYivsL02s5YOsQ64THNTdnRoTXmuI91g5Pzmlc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-OM.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pkY1cWnvalxXn67Edi0toygt4pJv0sAg+6isSrcvhLg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-QA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ze+ZISeMm+SsVCjW46oPVdc2XpBqVC50b9Fvwwqy0DQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-SA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M3dTau98TJBts+M/X/SSoVn1laCIvY8FDCRt5gJvPO0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-SY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ntXcQG2GbpnpJuAYt81XodyR0+VOP+CsRgE5PK8r1sk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-TN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QV+MvnWbggs4AG/eROIz1YZhTrjrfMXv2t57qClOstQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar-YE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/xKHLx9fnxaM/Hh/ijNYEZ1FF2b4h8eYXFqdeLhtvOU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LaG2D9kXtnJYQuemR462NrTXOPeaIKboilrpi224u9M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.arn-CL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XgiOzoDxwfzDFO0sBT+bLaOdSyBqYN1NaEua88LL/j4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.arn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hmlVr0QTkb1wfVWejEfhIX8mvcOF+bUkofUOawVPTdE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.as-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CqR+6Ii6qAxKPDLTCOeT3gUX7qYeDQMxjepzqA/cSUc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.as.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lmayqqCyxB34f9tXJCPTs/I6OzblYqAi2uwOqjJjq5Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.az-Cyrl-AZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2fmPAQvCA2zt7cIbGSOH0KNkwhDuqgYnXs1zksmhstQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.az-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yZae5rUT3q/Dw0m/P24n9kApa3794NRUYezO6Sv9mgo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.az-Latn-AZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vgZ5Pl1EllBUjU9K40tbRmxqVHYbDMgxbnpyhLgMMeE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.az-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5P7wAWyjtJ3/LxX1Wa2LF8+Uj4cHIPq+Exfhs8//lyI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.az.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Om0f/2kdHJMlS/KNEGElM2FoHIByuVzJtJP32CD9fBY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ba-RU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>b6/p15MN+7gQXWLChVETbA5nSOa2CJae2F8omYTxovU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ba.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vd0HpLJ0XBKzWhdf1lf8w0hOZabn0SBf1i/iXf+VfY4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.be-BY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AmUW3vIzb7U7Ssbi0SjCZfGEaTvBasOlXF7hOfbwGfM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.be.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cUX81L8VPkfDVeRmtQ5kfPXS4CIq0IK4LKAfNThZhJI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bg-BG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BNsJ14VoV0QCqz+xVWdJ5Fnv3FkJu4/CfhSVAKEC9qw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bg.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sR1t1oiisNJKHtCfWssxEOj1dK8I7t4qG6UZ7TsUIl4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bn-BD.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tbGNZrkZdlVKc+mAH8YlkV0c1fvBJ3ARmujlJzs1Yt4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bn-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>id5j/nA2jzk/OPYy8EyRgKYhSqaeAhZJB1zgaI5tvag=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4HMqmuh7KvR+jEtlML06wCIJWIsJgkTjXC3zXx0/hNI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bo-CN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>t1LmSh7SuBou1wfChobCqWD3y9ULi3Y1FIcyAy9gcqM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dwaWfU38h7rCg2yLsF6YWc7wenx8BXbnkuHauOYFEqs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.br-FR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OZy4p+DxmMTS8PIdFggzCrWOmeWjWOYUAWoTa+vUZSU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.br.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JAQKRmjEop+DI5VpVjyEGQrOT6BsY7q2eHynsxeT5as=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bs-Cyrl-BA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6XFjIYenw+D/t7gku2gkKdsChuns7DYOBRqm5N69Dy4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bs-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+3Q/yAxyyNbPsdffg0zyzixlTUZeNJvgiO9wD8vhw28=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bs-Latn-BA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g2xFWnSUnBoLs/aXMu63FtSfW4HqkYeYDTgEnYm+Zak=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bs-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>91ED9SvnuTcPunwj0kpCF5Tb7uj1uw4ft1OvR/S/jzk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.bs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8zP3sB6z8+lKS/AbV3N3yr7925Ow8IjxV8ZCoMIEkZE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ca-ES.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EuofAH+nNloxZsvAACL3tM+RKUEZTrkPd6gyEqrxq0I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ca.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WPe0+RSKjl9rqqhMTG4NzpxysKq6JPyK9hv3i4OZA+M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.co-FR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bOwbcYfstamb/QrJLwY6eVb/J80BiQ5D540szR+cIq4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.co.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pFyLMlbPzZvkngay1Zg6K5ixK4/rM99T/zslcLErBME=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.cs-CZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OLgTV1ZaMjm193ByIxs8+dN22TBSrlrDiAPHO6ROQ1A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.cs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oDMPnMueuhdTVqyQcPx6lOSIhfh7FSFmHdB6aBiU0dw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.cy-GB.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uWs0ldwPr1IGvt7BgEcp6gfMn8S/c8CBWVJpVOkoUjY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.cy.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>efMRAo1cXHL6HXpviCUOU08MTz9H+H5kTweq+Od8ZsA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.da-DK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TXSfO91vJ71ewbkofNs4OS9Nz7BZfPTipQ++AVJ/bDM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.da.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6zan8EL04RsACQ+Z0Jdp4umJ361Np8KmIuIKYVfompU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de-AT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xp1pOvKwnob/U4MW2uIzXG6XruQMADhywb8hBeCF7hM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de-CH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iMrCIxUjFOtKrSQ75svMtCQMIqfJIZax53OZADI6Uy0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de-DE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4rZI8JIKo5ZNbbO9Y2w/XKvmbkh/iuhUbCkYs+VKedY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de-LI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j47JqYdtcdP8c+d017W2J7WGqlJELpUtr5Mwh6IIKtw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de-LU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HYn3512vjEqjLDu5EwJvk+fXybdtrWLjQ1jVbzxsKKo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.de.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z0TvZSHo0AAPr1Uv/kCa6uZNIdSNOCRKgt8Stix+kVk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.dsb-DE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ICz+afNMcVNxPEfAhqPyRzMAA5IIvLZ/oikM/CjM+eU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.dsb.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/GsGumXQjw/2ARqyetsUYlLkBrkGF6uA8SWsgInEwCE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.dv-MV.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pnFD5UXTDEONTmHQF/Ig3/o6hZv7uWRWCxcrtlHuW8g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.dv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kXjiEX+5X3wEZOQS7IYpGhzYU4Ed0hLlS0DpFXNgp8o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.el-GR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6aJ+wyPRNYnsT31xPscR2VQDv8k1epkbXJCccIAO80I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.el.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2RFJp2M6lGKHvag0eEckemyMbSa4g7c9gC7Xhra8Ztk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-029.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V9AtXgKWLDwICY4Xt5AYSsgmaxn8i4cQ68qYTRT6BMA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-AU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/w7BRevWqVshW6NfPMviSpQH8vA2HbR6BEy0XZGfORg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-BZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AaWz56C1xJKUYKeNL8UHhhN85SJz6zxRQKKuL26HGsY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-CA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V7U2rVD5uNfdi5PKeb5iu9e2BZmVxwpmXku2JS27JSA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-GB.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HoLvkJZFy+lgM4jkupjUeUmlc+v8bsUYfjbmqXjAFGE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-IE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CQM2oOHWsoeoZYPtLyr3LH+voRc/dfr1q4T/f9R4yVI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RlcOtPFMoZT10smnRuktZiIhR3fpIuU6ivqAXR1kulA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-JM.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>X1JLrKp0FwooTye1anpbm/HX7t0BeIJFyIIMgDGw4QE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-MY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UZPN5uuzfCoq4xX1zweQ+gwGkICn9w7aw00YdVeKs3w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-NZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gY8TKaCAlfVm/rm3L0cqnzJ4qUmaLukgxkblUdURCdg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-PH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UXL7IfDqZKJFtAdqCGbyMyNKR7W9vFkQbtHCxwld/SE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-SG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+ldS0nXdGpLH3OogGclKrNRhZlu0kOvOLr8xglTrtpM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-TT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ghchtazfv+u7Vf+Rb0e9RejTEU/jU4XO4+/Mq/7oAdA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-US.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y9jHJ1xEiJO9Xs8oPEUiKYBy9ts8gTylfbd+HWWzrQM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Oc5izxBddLhpH7RIRdT1w1OEZH6z23vYc9GRrtvfK1s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.en-ZW.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nV2RZa8sM5f+QMA5PXrSPjufVUuONl82j5ux+mtYTnA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-AR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gXusYtFywJyoyTXF602q1s1BoB3kXaPmjZszu+yQxaE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-BO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V4yQOVZbHgBr9pxe40n7kN7BHjtQliTBk0A1Qna5ClQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-CL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZYl/UMFYFG/yyLU6pKzE4/2LneecXS41Jd5uYjV6ssE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-CO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g7kcxJRQlO2spFe/13MteTGIHz4dykGQ+X6x3SOBiRY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-CR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>n7dYEMNnBuvhHR+Fa3YzVRHTgzCfVHI/Ryw27vaVonM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-DO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WXQxUuS5Xj4JxQDh5tv5G4Pa7nE456J1V3VfIyQWvig=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-EC.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QwEMj9FXcFpKLBHn6EO6hP8lE1q6SLEttkTWZNnlirA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-ES.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P5IxYaL+caKIUejSeo1K+ChN1hxR1kiQoPwuXeOPf2A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-GT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J7vgSKP0h5XO71PqWdfYO7jV4xjOfxXpPEOYPprAWnk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-HN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wZw98vynyOgU3tqYZBnqsHdyeYFrTtdn4qtrBpTG0fg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-MX.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sv2YI9awQcMWYbWTgB9s5ylRpYCkd4mvRo0D5jtIP9M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-NI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ifVDI7bNM2yX4E1FMJsNIUBUO+D3OQtiAqwASA7gLZM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-PA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zBgUVnZX6Lz6GpCNgfGVVetFEDXHK/pharf1JZ8RBWY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-PE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RGJK1lZiJeIrTPBrIs3YTsSZOH95RC0SQvF4guYHjT4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-PR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y62l+BWZeR+8VZO85tGg9lLa64bZsZ7BNJgo7JQyqsg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-PY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cuEJlhICPUyZ3Sl8KYGS9710zenx0GKn910tLg8i4y8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-SV.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GleOIck92wd2xijrxaNCpDoO8RtMzxDHzix0rG3zcOI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-US.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>l0a7XfB4E9M6ssh7p80u3VPIHOWW/rq/agY17zxq87E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-UY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>c0dUZ/7MByAoHy88GFHTzZaL/vFUOpActaqrL9fkU28=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es-VE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>siL50iSjOdxX4/j9XLx1pQurnvuUQ0E0U20ICa8tq0g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.es.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rxdUH5M8z1SvFCYsNv/Q90haiQjTMSRh+BSo94MGMwA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.et-EE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5g/4vIPvVAcatVaJda544ikGz4ph26szYr3ShAPRGDg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.et.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DFzlZK2yOB9qaTJi/NTQ9vcJ4qnEZlaTZc+svCKlCxc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.eu-ES.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cEzLasD5QbtsVIjP5gTYYvUNVbgeWo3TRXjz96c4xmc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.eu.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uJCRX4umX5HAYTeyPUsVgI5At3Okmw8wH6zBMwvXe24=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fa-IR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+S/inPCmJSLQ5NZw00naLlJ0GqXIRXCoxbqVI2plCR4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fa.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>X0PCe62eCQBFZXQv6DzN6fI9zNQgOYXq9ouA9YQd1c0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fi-FI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QpDPTnSnULu1hokZSKPnSOIuF2x4AmG3YErdQ4wlSbk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fIATfJrPkCjg1gTvoUPRK1pSLwbis+AOBhwd/gg8VYQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fil-PH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LyRWNwNNL0E8J3dDzjNopRzU1GRbozfsuxwknMMOXJo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fil.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HLHCsJvjOQx3CUzaqilkNBaaY3cKwuXLhvI9PtKVl6A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fo-FO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Fb346LWblLPLzozm+gicNNnrnKsZuWciov33Xra0lBo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>owSHGv/pRyZFIQ1ahW13QEZ7G77TM6haAJ//yrQr07E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-BE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mFMsGnyQ0c7799NPVJD46ZLgPZmicRmP3vies1iupAE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-CA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pbMaEysDKEDxWTa7UYtodbbRdYcnBtW2eQ0OsGDheWs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-CH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>afW0dRWfU6lrsejVXsJ5euXBtWKUyIx45boOxe0bHRg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-FR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M+UmfFNn5IEQdiMZP4kPtz713st9FStKaCVBqBVTU/A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-LU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q+cWNvqQHFmZLJ7ZLClx+SxvhWqugdSntXsOB2Kzm28=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr-MC.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Molp25DeLmLEw6R5pt5z02w/VM2tmycxcT5WGnHKevI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p7B0xFvmB5yZ5HwSU8MRif7qz28atROfDh10KsnyfNI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fy-NL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NbLmi8R7gMgAzIOIlfDP2UJc+cbmexzZZrFbdsG8NWA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.fy.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qh2eafz0aJtDj9I6lLshKmJyPZW84xmi7ALvIW6Ju0I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ga-IE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>017lcImkmCr1yuaQjsYga086X5wkHnPP0H6usIVn7qU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ga.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5GS20DWqeE+9HJ23RvL5XPgQn9efvL/7/jmYaekcgb4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gd-GB.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mjnoFg9J95AYouPSZSkXsuA5MeXm0It3w/TEiILQnIA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gd.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PwSSit+fJPe/7EmB7KEFwMn7SB9KLGw/5CX4iWgvhB8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gl-ES.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BzeM2UsU06RdGmelRDqZigQzeCtmKQQ6iRxZ947N+FY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wfyUkw1q+35+uQUDQmw1hGphGvndbHifaG3HFVrokpQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gsw-FR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Gl8GgFyNUaQapS8LbTDPHoGbyQboOq2EK4Az8XWyb/M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gsw.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HuhMgWwlL09kEWisG2DMybcynId4UbLH+pq1tYM8i2M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gu-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i8tPeikK52HQYMBk4WjDbEP9J8JZ945M5IPFjTDOp+g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.gu.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J3hirlIdO08DC6wt7Y5+OwieYDRuFwowokLYLTz+Rxs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ha-Latn-NG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5x+rOOLjnxuN/hRFGASFpdbwVbo6SVJFZRcOdynmLUI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ha-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JOdx4bGajFCZWSyLtIgHpddK8r+ruc3HkhiXCqENTik=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ha.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IfudZ7Ix3tr+yURDrqgE51eco7CMF7fgF5gX/Vh/bb8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.he-IL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/z8XM3vQ0QcxkQK3+quWR4M4jpg33sJq+jVKYJ4DQ1E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.he.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OIYXj/RRiKmrl+/V585M8z0/d8oIEs7+vA3vQfpBHEA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hi-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fJgHHQMrXTCuhQiIKyglwLr4ruBd2qt1mSGfSrEo39A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>l817AK7SX0TiokthIfHCxoABo/taRdb9oU07fIPPu1k=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hr-BA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nRltIAyQss/uLw41tbAxylTtTSm0SlVNlGiCUoV4BcU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hr-HR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qu1WpQg968u1Qu90NSAx3hKwD+E2lR+1jfd94UOLuIg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9e1PdYbPU4d3fipWnPdK+S5oeuToWRRPFy7XuGjQUtE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hsb-DE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/4XUIxmMznYvcYj+Nzfdj2Zf4jwPLHS6wnSvKPCgFf0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hsb.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RxXyklUyZwoNWbF/S/CrGtOGHJC0UkpihQK67ZLTBOk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hu-HU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GDO8VIv/zeMowXDHbui1k03nX129Ss5ftvwnX/AQFns=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hu.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>poL9LbiqAseKi3ZxB3Ie2uL4zGA8nKZsVFmI7ocqKz4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hy-AM.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rJEZjnx4viaTG6eZI/l+2PFSGQpw188HZaIaBiDHM8o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.hy.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OEQUWVP27m9uK1XEl/FeChBXlECa/cqq42BKH7M6WaE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.id-ID.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>enMoLuqObV1ufrdRUm09ki62fzkmvQ1qPDfrOJT0OHc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.id.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SX+bo0VS5CINkIFTVEiu3IBOGKXzIHAyn0c4aUcEdGU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ig-NG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tLz2Bi4YfNO3mbzZ6cJg4ml8vkHIT88c8zVN+oHhk2g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ig.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uBdoVB1pKG3CmAB/scwHHILLD/ufyB29BNdWbQ7vHxg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ii-CN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0Y1/AgoegLrmBbGXWa3dYtDNzrBoqssXMWI4YrhtJio=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ii.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Te5F8wl7mTuUN5CYFxDjXmG8k1/BL55mPrhqnxc9PDY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.is-IS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lqqC4ahY7eYSg2OkpDdEAdsZsKBKElzLvpPN5z1wokA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.is.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4/GnSZZY5ZiMJKWWFVPo5gV7f2f8zeJ0MXuwtaO4Z5Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.it-CH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1wSed5MAqZKmkf5JbHqiQfd0VGD32noXKrgS7wEQRfk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.it-IT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zt0s3I1OAHFE09k56DuK8KzjwJJhNA1jIblsQoorarE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.it.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zYR8gpns7MKOZZ1ou68k1IsUWolTAhMfXKFo4Uz0xZo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.iu-Cans-CA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>npt5VXpx176hpzYhiULk6iqDoQlxB9VDcDJQ0QHJslo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.iu-Cans.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qAUp1QOfSeUhEwyt5CVr+g+fAhUw0gjEHvkt9XQz4JY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.iu-Latn-CA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JFSHrwgSWwHg5fJ1UptqRvtKY9iL4jPIlhVvN1iZonw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.iu-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kTM1588ZYbto7dGx30pcnOyYK1OM1bgT6ZWDgBBulu4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.iu.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gKe4Xj+83/Xz6z5hcAie2z6vcWBPkVMRPrhr4NVr3KI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ja-JP.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EmSwrd77bJhJHtaM3P8QRsvidBro5HrA+NgPWDC6IJw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ja.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jkubT0N/+f9eL+My6OKHO0xRiFZdwswn/F1v70hDpLI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ka-GE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KzNpPbVQ/cuX45CJ/ufiZEGTpjS6u9vSU5ejkKPu3fE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ka.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MNBM1P66hsNDgzcDseJki3IO8BLfNxGh52ARnBkeEuk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kk-KZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>h1rnKVDxqjev1v/M/j97R2VKa0W1IC2mHGilgIqAvv4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kk.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gkz0wz2Tj6dX/tNWLXAq1IbRopzn4Zo9UySfdAVe5JY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kl-GL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TFOFKem04kS8YFZNnO535Pv1ubxhS6Am87AY5N/9cFU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f2JQBqMkyWw9wGupfNILFfmdQxAuQrYF7rVZg5a5T4Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.km-KH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HaxD9tRu5gJrtYPoUzt/LfQV+mamZTGyAiG1WSd/HFQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.km.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p2oFAhg2Ug+ip2m/8BcxN83CP4VVMDAtU7IHMm7ctr8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kn-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ysg+wlH5CgAg1KE+37vtPKmUUaDfiLhSJDt8QxLfNlg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5ju8uDnHIBUcbU2+8W+YFmbIqJDmqlvLzmPWoMdDXtE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ko-KR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bWgriqwnkl76OAq3199NknUjP3xX2GiqSLgL5awT/6Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ko.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uPDCvpOAKtN9TeuXNNz7iKEOQ/hmAgnG7jl5GG7r3Nc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kok-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rCzPC1YIm7pR6795CTCZ01bWi9Ch8J+FbDUgMbtl0zw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.kok.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qOZExCNfqQkql46Y4Md+jEWzt9WGv2e/lTAYJoSTQeY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ky-KG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JbjcwVTfiX39Lqqg3/7yv8csZdn1seMRUL9z9yH6Pus=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ky.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PFKxWSxjtbvHBwl2g9QRPDi9a2MmYPQlvI9oaJW6u9w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lb-LU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Jgda4M+kWnFEaxuCqM1yZ4pQm7l/LuR+2cKIU9lMB+M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lb.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XQ3GZO9BgIsssgyD24BrO0yHR6S3wHdpJ+dRcA+f6q4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lo-LA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dsZbnNLR0DCgxYgHL5K9hXfSjy42a0SxD7kywIO4SHM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VLkFyoDVxVUA+dIE6xYQw3d+WWzTHPaOiSmVYZ9KWys=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lt-LT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3SE+D3JquqwjZHRWwIX3QnKAMD+nbyH+pyIWreeJBAU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lt.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZSbfdVQqquOxqma2upoUj9VF9ObjLNZSvHa+r+hASRo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lv-LV.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3gdk+5nVqcv3yUkw0sq/p46Ol1VvGSDarXBwlU3PkME=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.lv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>szJQEoVWrYWimQfHGb1Wxg02tcJS+vOQlnAR6XeMNDY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mi-NZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fSCyNDBQPlUumR4chWJr7n7xXhp/XEz9REehMuJq0NU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PvygJ/RWBRx1tSYsvQq9jQYb4j/oDksCroD5p1dbJic=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mk-MK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>77vCIs+H52+zobSMaNuFRta1rUUI9+c2UYivPDhPAjE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mk.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xif/iZeEpLz+E8eP+SM3lWe+5zSF/vMHKRBPnJonjOQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ml-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M1TJrZgXG2CpS67QiQ7JyjkyKgoUBk9Vuqx3iXfLAI8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ml.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OWmUpIXKAbsVVdfq0YIEr82soDdluz/w5hWgLsI3H0c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mn-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>W5pemVSG/ZmQHyM/M+1zyFwq01y1bfwZidc0Rj4DGsk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mn-MN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hG4Zw3YGbHCyiRpY20OesNpD1VIJgpIHYD0EXi0SNhg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mn-Mong-CN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DADljiiH5k07/jz5MiylSpeQnIX9MGBKQ8g8AqKiD9E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mn-Mong.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+E48XdzpULRZsz89qbLV+YeZN8XIesPXQM3/V1Ydd+4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PfLp1pcMkSgSkV9UlyA9aj7fMoDBfA/Qb3tvJW31vJg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.moh-CA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9JOMtgdT47hXNfabKnyXasGn3hizTQGqKSYg0gnb2Kk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.moh.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aI2iMMvA1gufprtWvxpew70AX5dQDhdy9CnSu+bZjE4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mr-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Sys2M7hrkzKGXJVc6stDkNZhQwInci5QF4k5dDDJuic=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>59byuGb7WTLsAyOVjDd4KC2hmoHxBqHnHxi+fQzgY78=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ms-BN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V1wmzm07tDqSsx64tcDzAV/D47jxvvppimkjzUrY2HQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ms-MY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8qYQ30ChI5d04SIBdOP8S75XXZLtoLaqSFqCxxilsLk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ms.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ostbFMj+m3NNcixudFQxU/LCKS5FaLozwpZ2OyR1GmE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mt-MT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HFU5KK0dmzO3nPcS4eT2ZPTlzpXp9MMJKfSVzvcKGT0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.mt.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0gGKhOUTYn3Ihpff38lNhaJD/BY8nYzh5E1ZPLZAOXU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nb-NO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IB+nNsF0aE2h2065BzvBmlTmzwqHvNIf2w3y4kAisbI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nb.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4TZWUf2oUGmH93B+ZVOYT5AfDjbS4NQL49gul0d/uko=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ne-NP.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S5H8GGpY6noQThW0ivPF8KmF3MtAs899ZJSnomHRtXs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ne.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2bTkZ1IM3q7DxnHphQrC6zXM9Y/BbJoYIeF3aMzmYDs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nl-BE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5mm32emNBd0hI4sM06gPmnTTwFPrGaNJmtM3kndVjFM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nl-NL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>x473L2miaBKNCjDVbUigfAoDmzb6+k6IIZ49e0UsTdM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2FRhzEMLvce2Ls9TGfHRHYSG9ch3eXPihZK7lq87b3Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nn-NO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mNOgu63NTYIomcyCqerqB+9fENGolfQbnkYTsYXYc6s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sfODcFOmWYu0yofw8kRiETmzdFS22yczxlnviNJL86g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.no.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y72i+xBczO4T9YeSkT+nxaKcFT39WS+ejRU1G73nKzI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nso-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vlWeq1u0CeCM9IKFlu6VbPWkGA2pYadKSk9X23ADEr4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.nso.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dZ0qwvKKXp/dYxfFozq3BiupSYr6dVtlZ/D+SG4bV4E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.oc-FR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9LLlK0BtL3GcF1iDQqUS2lYpUY84VPTRfLPF5JpnKfA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.oc.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KqLbbNY6GEtyeSTZZQ0N1Sz1JqAgwT5ha6OuuraoCww=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.or-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g+5ZaBkrHaAa0WyYakvkRJSFLImhTYuFhfSOLkc7T+g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.or.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C7zYvbRJyz7LDYX101k83/b0lDpT7wlQDOS8PQ8Yhw8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pa-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5W2ZPLXtrKWumkGLmtR9LF0/HdzY2enmiDGpfYfxOEo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pa.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S8v9M2OjCzagGOVaR0mGgiT1MaXlAR1l1mB2E2uvFQ8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pl-PL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p19lmeUCMo7Yh1hgpjHUAb8ODKV+T2nCNCiP5Zncq3I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FFF72PsCdY9LWWKwqnDUE9Gy4EItC7QGkL7vBRJZpew=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.prs-AF.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vD4/IDM9g834+Bq34ooJrtta0CcPH2Ck2vkvfBDJiaI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.prs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nl3Nmusqhsk1eAZOkIYms9mWFo0OmlU6OUVGc4hkq6o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ps-AF.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AE5dBSxs0KoOxHpDzh3NUkAxHnZkjBm+bbl4hoXvgfI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ps.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>D8LfM7AFCcnVlDWoMB5hBcNcqpcYTIuRkfWtSrVVi+M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pt-BR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RGwkjfsUjysNYtX6fJE6EootTXwKDccVbmVrMptiT4U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pt-PT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Sfo8kObZQTkAG1KQdHq31epyvCUyixHVaJY4BlBWctA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.pt.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dPzQ2xc5ClUdDGIK3hbLWkJbRTsknPUC1AxNvESq5eA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.qut-GT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1RCx+KrqkseyDcxoLSfhGIsg7gpgD/Hajb9KX4tl2ik=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.qut.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>x6qAnHpXljRbA+Ky9z/FA38W/9hvNJyXGqaBh8F8qK4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.quz-BO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZlLgsHiTE8qo9ZZcyNfi7o3pU3Zmn9UdHvAtHZxl+f8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.quz-EC.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m1QBzWrmzFHBPwTREjSghzrZ26/aJicpBRccIjLOiGU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.quz-PE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iK6j+0/He+t4KNCel+lh7UsW8EXOUNKFMRmcYxgyB4w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.quz.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rM4conzxUCJOD7Q2ofjYD3KwQ/ys3gI76CEdHA9IOH4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.rm-CH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZCJLEa+5V2eTmy1FW7Z5zRHV54mhLVkBjKAuuSKQ3KY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.rm.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IKwln1ktDzdl75slblKhdVpVpGfKgVdMXBTjD97UP5M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ro-RO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fh+8rx4QalAs2xWbTUaO+LHFeUoD81QSJb50nsxcoUo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ro.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MG+dkMSu1cSg5c+zBfbwETzFt7g3BgI1v/R2z0tCuOg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ru-RU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6sMeY919ZBxB68HNOYMcArzbQYz2tHgPJXgGdLd0pMI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ru.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Rgf51jHnh8xQ1BLNaVsOtAIkuNYDfah8f/QzR7bWNTw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.rw-RW.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9/ruojKn4iU4xvsWjCvQvhPzZM9We+sCt+pVhleA8Q0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.rw.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>D6fxMwlpo9+ys/mUAXRjgGgdEoXaiGzE5OL/n8bXXgo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sa-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p1RG7pCYMw+WzEzUXOcTn+WXbOsIhcchAXZBKpiQA2M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sa.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EAHon5npTHo1FdO/Z3N6QeCLXl6GXZY7s78g2C5z318=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sah-RU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>W4+Y3wFHArYsbI4dSkankI/+gVuY9FEhyVt5p5QQvEE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sah.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PSCcY0CAFIk7ne3zb32tFcUNpvY0IK9k3teLFdM4oJ8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.se-FI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bIkXoHxron3S08nswEXWgLae7IRfs5raH/n7spZzLHI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.se-NO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hTZVczVNizcdUHXN0M9uYTb3AsBdS/sbgwa/KzYfsYA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.se-SE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>h7NCGSyS7HMID4VSN6SrSohakJ0f7GEHxB7Tg/kNtVE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.se.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>A6EwEs2hu0bMmpZjm3dGumVlhOqZg0eTAvG1yee6jSE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.si-LK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vN9RWSuaqLEPOj1vqM4ayOQebcCnujwyBR4jb8f4iEk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.si.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uRrbLrkT1gkRIaa5K4s/hSePTsDVwlkWWqoahwcSMXg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sk-SK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>F/finZ3bnsF8VNTQa3JNwMzY2lR9xV9T9LzF65/BKdk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sk.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7bzi1dRLCAnDuYtwF8aKSQ2FJuQpr1zp/og8Kmll+Tk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sl-SI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Gp8Kq8q07z9naJRGPj22CMpDWtq8ZSFeBjPaJ1PIcfg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Scu3GiX64xQLnqSm9pLnoM3SgY/y3iAJzHDWm1i/YsI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sma-NO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B0SI9pX0aJh9Bg9FUVBzaTmHjfngJB5FXkieVkaqxgI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sma-SE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pOpE2tUXl0QC5w/JnbRsWpS3IwRJ8e0rOATNB1oCXJM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sma.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7LqoVvz5UUTsHUq4Vi75IrxGyLSiSku3OMVTqdttn5c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.smj-NO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j6usFWUjWuDVGA2JxnQ90cF8V4gehknReYMFazomAHk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.smj-SE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>COyHi32QO/kqp5myNmBc9hS3RGUzDTpUUNAY8q/sdQo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.smj.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QROYfTYLN6xJQXqnol6j91+iGU6gcO4r/J1kHxg/I74=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.smn-FI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Wb/aBIYKSiccmnMlyISkoV8WivtCf0JuVW0q28IBAvI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.smn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z/RuudtgNuKIiCk6VhVCknoWpDFFvlp/51nPMl1q3OY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sms-FI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>U6360DAgfqY9blv5CObtV3a7ouJg7x1STJAPTgsc8/I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sms.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zAm3+n4vYl8Byz967ztvRfU5L/UNvAWGydAALYLSMpQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sq-AL.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zShYKgLA6BrMHa64z15mTzaWQGFr/VDN9wXWlDgyxhs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sq.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DtToULyF3xzHvD5TbTT/g2rS+7Cfp77wrt6kJcSajA4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Cyrl-BA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Z/CV56F/SNBVh+hRMpX4MO3BfJ2AC1ukrOHI9JswTXA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Cyrl-CS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f4X1ihp31fVFSuZ+5WwPYD9FZXNjRwmN4uC+VJ8XvSs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Cyrl-ME.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C76iOS3rcccrJ+fvpBrdvfPtHjj4fp5M260Z03MCezU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Cyrl-RS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9KDHLN1kqhHkYMNNHjVsdmiH0dCRBeTNMCe09kotMHs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u4WjUG+GaNeDuHku7T2dALpRGdn9AdHxSMA5oagrnUI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Latn-BA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xuaIRHmJlqasOu1gz+vkh1I44At9qKAqkzhctLC5iwU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Latn-CS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uS6gwfByGdCBKrLdrM+OOq5N0FgR6GwDK9IMuN1G7TQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Latn-ME.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lCM+noT/sC52x2QOEs0YCfw5s8aOmEbAybiYAmtGIik=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Latn-RS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M52bapq64N8aNUoLBvvsB8VyjsioAmVNO1Q4QbeZBYA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BYeK7LLZSCXRUnHWVW9EbOW+EBrDpcXxlxn/YlYiSzk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>F6tuRJeLJqGvmVqz6saogpOP9RB44e1y2xKyFnFPmVk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sv-FI.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4zD8+GeRUFezxStWkfJo3gVpN/LYdj1kjv46FPNpI2k=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sv-SE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>myBZJN5mvShGhVPFOFhOr+XodOVEkBVQie8Djwvx5JI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>icCveeLcJc7Pd4xScbYHnIcgjJbb7zUP5+oJhUGC3Dc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sw-KE.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SVRQr+X9nBrg4Us91ksziua8GBROO+RBl2Cr6mmyWb8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.sw.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6J2EwnS4uA26cWQ4DCflcwfS2HNHP3SVLxhl7Quo5A8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.syr-SY.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FOvz6Q+qDLPn8K4jQvtSiwfgUG1V94fqOhf/wYmIY/I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.syr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>q1d7i2qBkwiOCZ99GQzGRVgXrAdvqhAfClkmsE7ava4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ta-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oxfodeNGOpGAI5+bk2oP522Xnw1nPHVArdeX1vqgUoQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ta.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mlOvuriZTob4QDfQ7e9xLKsF1qM0pBR8UswqGaQAlko=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.te-IN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4kJGou7t53/euR2QRSxme8WH2qsGKl3t8Cf72YbXcrU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.te.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hxqaAg77A1qSc9ULRPYCidEnFBTo/7DLDJCjSP86Spk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tg-Cyrl-TJ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6WJ2ZzzAURtx13SLesIxZN5IM6LFm+ktCI2+gN/l8lg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tg-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hJbGLXRBCVlLlt73H96S8IZ1Iy+fBZzLPlUV8AZuPc8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tg.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ocFqVvz3w+zTuvtyGUBJ0mr8BwVNjiblc+elHNhrThI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.th-TH.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>up0hueVrVNAnBgq6CHDq3Cax2AJxM5VRmFazq3+NpQU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.th.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ydzjQe7VpDO3jnxfI1L/5Ktvy7v8HDT4L6pJBx/rGaY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tk-TM.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vKiCX7gqAJN0xwkjaqz2V0CsZLhbWVnjqbcRzqJ9w8k=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tk.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M+jZK4eZHfE1I/+dxUZgvSTPA+UnjaBGaEADXizX1b8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tn-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5CbSs+qYblnmJGl3ew11rteq+o3LiijkIsGOscM3ZSI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3SDKxysf5OJAa2/T6JuJrCUKBSUi/Nefy5DFEpKi7/Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tr-TR.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wcWm0URzf4ZYqGTKylq2JK49Stav4OrEEQhPHerOP6o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YzJft2qBwWOQ4SNFI+2XT9iYeI+lP3nVn19GyetEP2c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tt-RU.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AFGYbhOOf1Fu2+8rNhwHdPXHNQZBVS4BNk6Z1aRgOww=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tt.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>420xvqd24qeo2iQHMaj2pbeTuCHiq87YDCPUVPR4ORU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tzm-Latn-DZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>a/M5FncXCwWwdw12JD17K4CNO3NcM0HtFJAbxXOB86o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tzm-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e5wWcWcPz9tLIGgmt/OthCPSM2UMLlqT80o9EP93rxA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.tzm.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wKVOeBYYgozI9fqEVJRrzIdIMj4z2xy0KvtS+x/acrs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ug-CN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>v8az3SdmxBExf06l4oIL5boOxxarRcmocAUoEzq8eTE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ug.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V0QF8/BnzS+P8JGB2m+kJRT1iGCIMeOKPhzyypUe2u8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uk-UA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nkO9318WKCL0JifFEzC8uVQMEqqqy81nfiMK9n+yTJU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uk.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L32orD5e/xWfutGk++NDx4E5g01FxbsbI+yF2IdtJP8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ur-PK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qBm86rzdlvyAwJapnXGICN8kcYFL2jcWzzsKuSng9BQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.ur.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+rGet3UXfR0MvQCzIrSMq3ot61k8xCygfY6l2yQLaKI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uz-Cyrl-UZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>idjVe2ufuVsZaY8W8BCZTZjlYGCFU0y8Ap7bdevKOFk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uz-Cyrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LNBTPzNxLgRR+wEg1YQD5k8AwbEqYUgjXo9Da7pe874=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uz-Latn-UZ.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>d2l80s9lMB6OayR7WIQd9lxdZrqshN4xN7Tr+9xTO8E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uz-Latn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TChIpkVnRLqKY3yaL0YV0affmJZES8CvElEiL7AphY0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.uz.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RAdh64CHWVRYgOxiZWDj2vLii5cwJ8FKXu7yd60loe4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.vi-VN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XJeA+wplthb9urZKFJa7fDSGzsaQ15EwTYLEfAIfWxU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.vi.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0aLI6nkuDtRA9kNINDcSk8nBZ+AGmsRPntpDB1cDu4c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.wo-SN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>n/K9VThmbE8641ialWnLatpiDeoxyZ8qQcsPpmaK49g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.wo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>koex5U2qIvve+/2/RypiZ7jpivep9m8mL0X6Y2uEQ+Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.xh-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BZ1Sk7cTsi0Mj5bo0VXTHoQhgwAnFRPahzLaNrR7rhQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.xh.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L1tYWqJHQxcNW+FhV9yIrcUfm8i+hy1XCFDQKOUO4Go=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.yo-NG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ii11b59jTrev2ka+6Q91TTHNf2+boRYNPXYkJW6tNms=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.yo.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L8A90CWuypwvJCCV2U33zGTg84s0W7tQh+pi8qANwnQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-CHS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aClUgO/H6PTHQjKYENp+CAAp+XlQ0lAIIoZmQA4lT6I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-CHT.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ErlBpiBaU2wobwaRIYo8QC9GICzNXsrzEzgIOeW+akE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-CN.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>89iZEh+QKlTBS8l72nWrp2gdL+KA2VmroVQ9Ho5G1RU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-Hans.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MXz7VSObsAmIKKoaefVpctb/VzG+sJhFVOSSTYJSAOA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-Hant.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>evNbmDewV6h8AU8DQnfQzGfkxwvGSAYobq+FBnR1dWE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-HK.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gmFh1/kOEaEcVDnmY+EQOjiy6fMR8jcVZPLyTVVAkP0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-MO.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>n9bUPqBg8mWl7nxa6cy4suhhKFGIagP+Z1ysrm5I+Fw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-SG.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4KxujxUbU3av+mCWoUrx/XaERCnwGJD8VWO/IwuIk5o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh-TW.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m5CsSPBmU5V0rtwdG3FtlJMV2DmqSFqhotVvbYyNKkU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zh.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WBlSiW+hUR+oup1q6Mq+XoDlqVLK783xFE31wkynUqM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zu-ZA.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hFwKe+QA8IGWCvuayOArURHiMStaHaJmgzlZ/GIBRfg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.culture.zu.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MyHi5Um6Vj3jfgEPy0pmm0D/klBCBmsNjnhTgkI4ofw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/cultures/globalize.cultures.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N3wJ7GrRqqw8ROiY+zq6b+Lok8oKQzsc+4rw/enwSQ4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/depData.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Yp5Ro0HXZJxgVaTwnfq5G6HRq+vCC9XSjZGBA+/UiOw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/jquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z6aVFjdeJ+VlGcrnHyiBjg5SUVtw5wWmANHbRZmYM1o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/depend.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jYUHHNasVbOAQjYhfMyEZRP1+nqmEuz5sNKj6XnET50=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/events/orientationchange.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LsvQUtKHy8MYUlM5EqadVfyxiaQmws7x7w6BsCAR7ag=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/events/throttledresize.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cUxlgAFybVyTaQeCWpi2JcSh3x4ZKBR9xsC1FDZZ1MM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/events/touch.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S5GIzqFLJsPAcS9u2caxqfSc6vjan9/97SBpJcH1XoE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/index.php">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RB4tZiEsIA2lt9321OV3dTTeMq1i9WTLAqlMxxOsgis=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.hashchange.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J7EKWUG7C2mmtHYIiQrpDf8wwz4ffW7O5pim/XAwJ6o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z6aVFjdeJ+VlGcrnHyiBjg5SUVtw5wWmANHbRZmYM1o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.buttonMarkup.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AdI3ctU5k5yFiJciLXIRoVwycKcY0SeZu/t1nuG5BVM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.controlGroup.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QfBR7FWzkmyWOUCY+UcCNbbdrYegLvYeSXha32UcjOg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.core.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wkMeisGRKjX4r4BcVflzBC26zVbUosT3kLv763pa9xA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.define.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NacUY8qKllO0UKLl6Ov4hUASpAHfaaadmZFisEOSJuE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.degradeInputs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jsbqa2nkNK1izURDiP5uyKzsvxi5NNRCCfFYtzBm9jo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.docs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.events.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.fieldContain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rqIl6hsxzHhxyKsCmPGeY7qTBwNXLGObggBpSsLRM50=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.grid.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8qX37J1YcqrXhNo3vllLB2zSM9tTNAeMSs3935mkQu4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.init.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iCDY2KLZQ4R0MI72TMMW8L68zH05QzNU3XligH7N+SI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.label.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NaN9SS/l3s0zoHQ/solrOkQxxEZfbgzawSt0fB609dM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.links.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>I7I2YQMu6/F/TaGIvs/8qkbfzoSQS+pE1v8zjfzgXRU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.media.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FXubOn36qn9k7vhwlzfEecwfH5etYYrogJi8LyKocJI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.navigation.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ldt6iwQp5TNl9Jy7mXPJhJxwCsXUkqizsi7byMwdGS0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.navigation.js.orig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>INoMBX5EP9KVua2mpzrQX1rUN8zHKHGQrJx3KpwHDgM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.navigation.pushstate.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B2JWRyM5gheFxlsZpr5+HITVtNlR4TxBagyiw87iUUk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.nojs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uulC+gwBwbfdE1sm7oRs3lc2gOt1lE1P+KVqvp95J2A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.support.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dQ89WvbihiPvlpo8ccQ+OK/BvLABa+Hlpb6utEKylts=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.support.orientation.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UhWk+ho6pwQhIeP60hPsc2Fzp9RmhEX2B2g+et6YS0A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.support.touch.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Togz+6E5mGJWv7h7HRStz/V81MFkl/JISiN9pVkXjgA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.clrlib.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pfEeIDB3ACbeYhSxQyXkVF1hHNqxOY03pwsly1Judk4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.configure.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>a3QjEXX7ZH6WaFyDWYgcZcoyusGEn8hSr17c9pT0pu8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.core.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>THmpGkMWLg6Em7HHldq2Fopj859vdUF2sWPzvPsIv7I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.loader.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TroBGz4Y/UKCOpQAOP0JAfrL7o58Xt85JXHqjgvshzQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.loadprototype.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fRKmstNPuepKuMFX1isRBXzCAJ8dUkpZGb+eL40SfNY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.pinch.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8BOShePpBdtC+VJxCPlVJ79zA1R02ah3GDkxlWvysO0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.tizen.scrollview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uh7MdcKZxpoQpqu7LG6R/+8X4DUPe0Zb7NF0bqwQquM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.transition.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ipYNor6pnXDvQ86Ee7EASZoZ5pJQ0PLgOkOh7N8TLHw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.transitions.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.vmouse.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9uN9IB/DtlUjeu4MbmgQtjQWgsa4j4Ft9Yzs8hoyJok=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.widget.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2O83Pksoz+sPQSNo3f95jBp+pCuqVE6SMucBpRRtv5Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.zoom.iosorientationfix.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DSnJGcpugb3rqM8SHsp60XRqPnq4SR8ow4gDxsqVhQQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.mobile.zoom.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>veHlGqfEZl5i9wENVVp8Yqkykud18tmULNYDdIt1yOY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.tag.inserter.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>531Y4fKDRnj7fRFlRUdE3V7U10rOy5q62fa2+LWWjWI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/jquery.ui.widget.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JOiYYVU4uvNXqXgnPW3vKRw4WumL3yrinI1eRqHarnM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/text.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jj4xCdvzc17e/q9BIy4FOcofpw5PbFCTnuWpsVJWnPU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/flip.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>K6IrkCt4NIZOcrr6GINXf26ohA3RLnevGQw1eySyxiI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/flow.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VEW/79P8mUuClKoREIZpv5Yj9/NjJlX6n7mweYHmMjk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/pop.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3g/qoh8o/FDAGbSp1oA20CDVfzWPNPTl7dIFyg3UxBY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/slide.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fZ4zKyM0QinD272LKX5TqS6s/piFp8qGwrTxDsiC2G4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/slidedown.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YzOUhYiM0RA2k0gbcrh7TJWL+3lHxDvLHPKyc2R09R8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/slidefade.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>azXI1J6JfoFV/ti9RqbQztfRa7VETWeXKqTZWagjdNs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/slideup.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yggJb1KCsQx3j+W6xso+NIx7VxZae4EvVawwUU3Xce4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/transitions/turn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>A+a1FljuhVKcYRYMhZ8tumXcMoQwpM1MkFuOXGgPh+g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/util/ensurens.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rFiqrGKS7/fOQnme1kyYjLzuAXYI0InjXE4huGB1H/c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/util/range.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>c4yPq+zzlR+zLAXPB4RKHDVERsbUTt/B9PSgtfvraQk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/collapsible.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XUpPcidM4s6Ek6dG0bw3Ftq1qXtnGlWIUHqOIAtseTY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/collapsibleSet.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JSJ/fM8OGPkckN4h53T80W3jbgelLyzHSJ2Rnf9qC2U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/components/imageloader.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e9sGuYTJrTBNS9EgHFUkgpZvdJlwehL5K5ZRYdCw4p0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/components/motionpath.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lUVwW7x8axGvj4dCpxqeDAGF7Zo9ZMkz6C4wj8C2buY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/components/webgl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iEqS/jj985wvZ2byKRE05pCqVEE+fKHTqqapMYG9InI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/dialog.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4/p6FyUR2S+676GFly/kGwU0hi/OxGm1kIkGL/1O6eU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/fixedToolbar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dKeniFTXgl3+nnylQN01TQj+frp71Tv3vGrLcD7R2CY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/button.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ba5+XagH69mwanYcyqv0Kgh4Bl84Kws98AsaaIkn9CY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/checkboxradio.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>K/6KS1mWLEY1Nobl//0BWAsozCuZmHHIe6qj8LcYLuU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/select.custom.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>65VuP+Iw2IskWX+y3dvZph3oqazrtCv4xUN/zN8mhxw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/select.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>58R6mVMDUrFe9WzfmEHYNiCSrmcFsFACf7mLNVNo1ds=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/slider.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qm5aGUCJoPE5MaZQKDdEew4Pzu/jEiZ41bW8DxzK8jU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/forms/textinput.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xou7fcbIGI5EL+etu+OyeTzsAlRTPVTJeBAI11r6G7w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.button.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OfhqHGCGBvKK9+CT3Jjes4Ea8b8Of2bs/D6svgQrKBk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.checkbox.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EXyNpPYsYDkrRlMleqLUszIBYwGp3HkwQS4DBwwFDxA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.circularview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>535IvngUYl06aGwzTX31Lj6gRi7KxGXdoVQqjrItD08=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.datetimepicker.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f6lFi+YuxnqKuknDC4MCyszesmXANZysNekPFwV/6C4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.extendablelist.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hZ8KH3cNlAHm6v+ykm8n8aM5WBkpgfXYiPBtO3dMuTc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.fastscroll.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>o5eBeMpWCxVUXGsOYPt3R6gavHT1yJMUxXCCvTk4Ogw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.gallery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6wNNrpgFgvubHlAEq+lCJ6f/kb91nV/86ygywO1/CYo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.gallery3d.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FtdZr+XhFv4c1Q25zId3a+9wnptbup0CRbsbqhLLZSM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.listdivider.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MV9Z0w87tkgO0hX8I2qvegqwuWo1j2SCVgaMA4i1kYc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.multimediaview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QEa6UPmJPRg73vgOjj4XTQsTn8EZck+i2bhedOrm8xk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.notification.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>K0rQTOCdjxYnEI7LgZZNXIpMrwcZrZsOnaiLL7uMw4w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.pagelayout.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uhlculpY1RMdUsEx3ej8Yxz1pAdYatrG33ucNKBsgYc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.popupwindow.ctxpopup.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/D/Y2KbBU+yEd6+yMjCZSQqesVWXeJVafciNyH0RL5g=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.popupwindow.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qN/ArgKjDlLfb+gRUr7bIo/u35mNj3b4FkniEXmYYZk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.progress.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ue4tzknPzs27J4pvNoLqxL0SO6K2iolcujotuFTYgqA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.progressbar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q+CSoUTFmAN3/nlDxG7ePDRFPLvgMDie5AuebuDlEWc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.scrollview.handler.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6xE/h7hhEkpNh3D8lEsOU8g5sv9DGdua8BhKEw2oL9Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.searchbar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aHfpTA6sbJx0sYK9UvASDSukHY4PYQKNeglYL4KXtF0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.slider.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xThxDBer2xRRReWWPDypQ5wI/9W6MMo27CudvqTidpk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.splitview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>T8JnPJwEdCYaE9yHeDQLEKfepBXNXAFfix3eU+NerrA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.swipe.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AP63KAKMIbr+CJ8yTah9v15RmBktSwU2oOHk55+mLzM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.tabbar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cLhwGUFOy2Y0y4koHEfuvLARZp+di/AC96eUGpO3Fz0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.tokentextarea.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eU+iYtIRQojRnwK6qG2mx5tFhtSBzCCbzQ96oBa8QIs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.triangle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vinQyMg9hR72VsLRySZ07QdtrsbnIHgnAptDc8nINrM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.virtualgrid.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tybqs/Z5KUc264uuhtu/fg0Dc0/51nvfMLHfp62cWWE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.virtuallistview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8jX9PWxBd4mTT7zhcaAWUCWxfTnwkvWh3NM9ITdrG5c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/jquery.mobile.tizen.widgetex.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LUANN0/pOCwlPC7ye+yEACSgPcvnDDvcwgDJ6oPoC+w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/less/ctxpopup.less">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P5xWhR8WrrrY6pmCBGetmLrtHnYi0nrJIgCKAYfsTtI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/less/popupwindow.less">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J7Se8zy21ETKgYwXqEiqjKGJBVq+YAYJ/oiAYGiJQrU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/less/triangle.less">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+H0OaJZJfmJusCwK4oNaSWdxA0uwwZ9rxJzQ9jnCGGM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/listview.autodividers.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gemy+KzFqeD4iEa6xfNkbXQECRKoFColZtENgJ6enO8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/listview.filter.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wCsIe3gCIWDA5sZQx3aI5sEk3H57/u5JABYKiSZRFeg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/listview.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5NBScBpRqbI8Zw0aL1L01kNI+Dm7xoJ7HhhM5eu19vA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/loader.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xWpUzWzar2F90C4BLqj/CPmaPhBG3caJyj0cSBTrnhQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/navbar.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4QoSgqcVdGVuCaqBM3gOgSUHFWaXeUUzIa/0dAjJp2s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/page.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fTguXbXE70fP/FyKVzMSAtbiZKokE/Tl/js4+HzPEk4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/page.sections.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i6R9mVDs5GFUeFyFQ7k9iwQp8L/yeqd0j/PijfEKLIM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/popup.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IO+GA+yGsfzQT/znckNq4xEmyI4+DMyaXeaSQPtlKNw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/popup.js.orig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tGmS58+i9hqh4i6jmrxXwCoDsp9gb8IGZzAszjC0Los=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/proto-html/ctxpopup.prototype.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VgdFLQCFQozMqXKIvhY8jF0sGt31k4h5lVHF2s0xh5o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/src/widgets/proto-html/popupwindow.prototype.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>X6ql+Jckt88RMmVwbzh2Z6PhwFxUhVItQuqoiqhYCLA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FJeYHHd/XXGNLFXfAdL4JoTXKTXs6fPpmu2JNiF1l2s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ltSRSWnRkjmafbOTisWu9zKnEdg5q/K++E5j1xAqizA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4LnVMlLqzxit/HT/3FsXqXJIUhJT1AfV7Cq2wpMqbMM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_dim.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>icFp+IA/JMMp74NMznv3A1t7ubQN8jDh1rf528DwZ3o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_fullscreen_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oDIEsO4hPtzS1m1NQZClYbmDRrHbNav2hHk4edbEZu4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_fullscreen_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cREc81rtpHca6Uz0mZM4OWadNvU543g1iqLV0iDQLiI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FAuY5b3KazJBYcyvLFz33g3XwCVLdIq7t7WofjCLjPU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dakujOvognXlbKCv3mzhk7OgxbhbLWqbRCgrKT8r1j0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_pause.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yIQaybkc52k2yfckhcGxs2NgxwEFZER+07oM/KxTTqg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_play.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CWf3Ic0EbdUAHKI4qZ0u/wwDcKq4W1+rC+lqJD+yxkw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dIGR5Lk3uHvlKYrh0rO3PaSEWZpYu4My/JTjUZ3J8qA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_radio.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q7bYd95rcWvhKkU/2HbJejynZAMJPS6Tb8yobmWH3xA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_button_radio_select.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C+NzSFt2gtpg/4aOjDYMjQxmlQmnD5lYja0S0/m9Nxw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_check_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4VGYat403TmXa0Bbw+0muoYotenoVswnsn5+O5iBOD8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_check_bg_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gs2Vy/8If4F2MtS1xwgQXmr8B5ZqIbNL0ey76aiPAYY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_check_checking.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UwzKU0xPfKJ+oaDFUq/hGBHKiplJIDbVkyMdhewHUrg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_effect_title_tab_bounce_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>75tgi8vHb3STlC1xm3W0WA8NMurn4a3bDA6ryRHIjqI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_effect_title_tab_bounce_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HQO9/dATTILsV6eA705TmCBcBCi2SkSrYjYJYkyLQVA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_grid_overscrolling_bottom.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8ELOwwRCMvA5UVOmLC8bT5AebWGVZ9YcDXE3XBNTMH8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_grid_overscrolling_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yUsVfB65XGEQFlydYzzZXa0aNavvmI3i6dAqz+/zJoA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_grid_overscrolling_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>utBX8UxCryU/aN4J/+B2A21naHi+mr8NYAJImp5bTK0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_grid_overscrolling_top.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wHrM28jtWxIX/37X/naUKsRQ630MNiTktcBNoYYNyhk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_icon_cancel.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xT8cOGNhKOdjgN8TDyJXnOzl9xKkyKNiCjwYEB0RLLE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_icon_cancel_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bj9lgr9wT9Z0PmvUdWuY624oRDfVRTsatwNVD1h0YBk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_list_process_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fGsbNqMLwK25VNEwSC2j33Gurcj1ThR+LtHxu5KzY6A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_messagebubble_bg_receive.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wbzPYC9RH3MGH5NIMf66WoR703ZvI+TfaGE6R/SK5e0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_messagebubble_bg_sent.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JNMPJPooE/JIxKx9yl33oliaH40WMvLGFXIK1lyT64U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_messagebubble_date_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hKVGRCdHmI+CJCJEwivjIIS3J3h8Wv9vt6yBOa590HY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_Nocontents_multimedia.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fQWdXQjxMShqMQ4m1urmYML7GqVLkwkV+IcbbqI47rg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_Nocontents_picture.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+Lyiiq5QUzxZGzMY8Yxl/Q7QnJ/u8JXlI0ZfOaGAMpc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_Nocontents_text.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wSmO854fGRwz4VMxzGQMrTJ1pd1GxKhnSb2m3tLM990=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_Nocontents_unnamed.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zYIfg2l7Dj8gCwYLvhrlZpO/fEtW0idrUFf2DCnuqm8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_page_indicator_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Tj+1o+nOUsk0/+b4ti3jk0gn5DLkYUxrr1X3kR7vs+U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_page_indicator_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Xx6n/CDEE8Jp+OthgNZX0s/lL5ew/UascXlIwq5DmiQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_progress_bar.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xBODp6aPPdydpIC5QOc5NQi36CC4WAG0b6bPUNJU48Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_progress_bg.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FegzdwhlD4ywSPpwSw0wHHQk0vGVce1HGsufMUxQ54E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_scroll_bar_handler.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/vw42q0HP5fYYiROhyurwBupmJ3eKTOUj4gJA2IJ3C0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_scroll_bar_handler_hor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UDwivjXXlFomaBdY0zZIfEp9Zk+2YZRM8KchJF2jcsc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_splite_handler_h.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zg3UaBPG4owK3Pvfh1u66upBXCDgj9NEEo/EvwZU72A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/00_splite_handler_v.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>p1EnEzz1OXHwBNjHhbQ4+zudcTRa+Mb4lZzYMyEpku4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/ajax-loader.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_field_btn_clear.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q3Dbw/fa2V9VnyIWunWRMssJLxmXzRIzXmOwHcmgvVQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_field_btn_clear_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IXAggAN7DD1hZHWuiqqhQncaQeewjyrH0bckd3QdS/A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_icon_favorite_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1EOifsMa1S6BRWQ6WVttlyT9M/14DXzHNYJsS1MAO/s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_icon_favorite_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gcD5I36rzjyRAfyHI1HKhtHHDM/pZLfK2mhhFDRxw8A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_search_icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>x5sgd5bzC/MqtqQ/TCFBcytuuCjHDmN0QZbSRqFv/Es=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_brightness_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wKqm85r0xD2kBPbUSdS3QA1DxDxe6LLHprRvxUNr/VU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_brightness_01_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UaMLPO3bB701tkeyOvH01ZqlMQ3KhqPEQH4+Pceb20s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_brightness_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>k6wG+A5I4/ZHGQ1IzM1OcK+xv2gf7jEh+etlky85on4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_brightness_02_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OlOPa34p13o5w3UGwrOVKIKB398theHyV7tHWz6uSvk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_volume_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B32HNj6pqM7gvtuefY0PrToRTxQfA2k8/9OwO4BJHbM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_volume_01_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3R9XjmLiEBgcdLHAyfbelUwlc5Tzu1u68skIA0YUfT0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_volume_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/NwLo/9iQ8B8jGOSs2I7tIvS2A/o5rASyyguLkumx1Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_button_volume_02_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BQ3mkuWA2Xz7M0SQ+xZYITKpXcgBuAeWGIAcVT6wCp4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_handle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>65bvQAO5Fh1oPSmgNNQ6nd8EOxTHJuPp7IulSmQun0I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_handle_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lX88C31opMREr7C86KkYbRfxqzpTWr6luy74z8Yt0ko=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/00_slider_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>A19UILklDZQmr4p61eClyWsrzFkV0F9XTDEDqGj706Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_back.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ExTGwBAs4OuFVm9KCSxRwUFKK2WjCfgGvbqpOMfaXHs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_back_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+/P0151cRIlNwxkKuuqK2wjeOwmlxxy8sHoQP/um0Vk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_bars.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>njERBL20NvNM+gSL7a26cunoWNW18NJ8CxeIicqSAxY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_bars_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+LkrnUKkaTJ6etRpnQDYVrnv5mTNE7WV2ocItLJAboE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_call.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YvFmcvqrZDg2uGyhmdHDonVPT+L+DG1mc3xCHS3ZQZA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_call_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Z+ebW7F7VnThfLtIo54T0exebLbP45N72s6OPm8MOPQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B75NGgF6LbYhQmO5PnpLaC8YuFsij+OB2SC4xnhZZDY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_check_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jDwtlIVv4z3G9653vG9xQ1vry9TczWO6G/ijQz7ZrN8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_down.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WavtA2Zp+goo665uSP7DUmM0GDoIlt4ZaoXHJ6XwxZE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_down_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Cv1kcY51LAhTOsILcVEf6Wog7DN5FYZgYgU33YOe81Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_cancel.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R8wFLo9nZkreeUcJpibmXoQILG1MChjA9gc3/dOm6wk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_cancel_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Tnvw+GxCF5ACdf+65q3ZMEcePq3b+nTMBiqiyG4bons=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_closed.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LqpFWIZIKnur1KXyBwF1r5CKbihBdOVt5SiIORVP+vc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_closed_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KNVgzYEKGk4u1JNLmcA3wt/BeSmemRA0/d17rEhJq4c=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e5Ydj0A2jMBiZXA3kHo2X+7P91soOXTIZYlLKXptuN4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_minus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hTdoHCJpvwRsuqoxqILV2dz6i2hY6Ah+Mrf7+VxovX4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_opened.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iXNDylFiSBQ9LLyP3e/FYAaZUeLdzXcWeOjeXG+mFUA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_opened_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qoLVBmbcuYps9oy7hfLliYtmSAsrIvjxcXleWTjHpqM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_send.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V9anf3AwHpGvFwz/gKxYStDWKHE3YqTUPMxA8Ydk0to=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_expand_send_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>punXiw2/iYpUjQfzsH6pFGJeAcmAqwyvN4G3TQTtcGo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_gear.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ji2dSDK411ChLtDU1gbwsyWiz222ceJeMLc6zr/1eY8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_gear_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Xq94cxtJyUYTn3wv9w0bl8ONk1KZUoI8vFn3l+KaExA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_grid.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Dqs9Q4EngNgAmM7dK4miaMLcRM2YLYw/bfFwNCZp7xo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_grid_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WWC9cuLql2AtYjwwzsXa8P0/LLwMa1mG2koLrbKFkUk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_home.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5kWcvoL+QBq7r7m9Vp7zNfWCbw2N4geXVS9S1HoFzMQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_home_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f1OgBvevfn36nvZzoZ+tYt6bvOAJpCWsKPP4nOMmE3s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_info.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Dhp+oEbhpmOZVjLJw+yz5BSOjo1DDqolZbhfFwXaN1I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_info_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L2n+9QYXDumci1H/WhE/va+cXiYZYaKRiyQ9A7pdsAI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ALPWa75dy6sKoPRQe4c+oGGnj1xFvra2GyDWllAPlmk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_left_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SJH/oyNu0dET+SHh7piIGepKFyA9lCur0xt+Fvw/7VE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AYTqSDdDRqPXaxppeTwqdhaKFO9Fc18se50hN2h3mNk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_plus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XfhC+rRf39OsQKF5LEXz28XdeFM8ErZhgESOm8IPSLw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_refresh.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wy9+kuOyz8jMSjv+dw0TZN+CLi+BcWt4Rk0cBqMWTw0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_refresh_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z858xnNJXzrMEriwyD8laXnMp5A1J95syq6iQx2Nt+s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_rename.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jv4geuuEZt2qwaW3Gw8WlbK569NmDS0DzwOakJ4990Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_rename_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6EulqhzxVVnmyMlYTTrzZeOYdT0+i6xoghk+Uj/RshI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ui8nASzlzA7DA1F5xHZF8vU7sjYcNDxL8F9y0Bkt2uM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_right_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nTa2xG4TvrqkJruDy3K2LRQJbXUMYN1A6mWOJfvaLbM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_search.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YXMFaFyI7l1uMuKr06YPHVSAcDxLObHNoBTSiC3WSxU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_search_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IAN9TdNb9VamS8IiL2kvMLox6kFR1ooZsDL4kNhm82Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_star.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XvlNKSKftIea5kuvsdlD3DplTip35SCv7wD2c+rroTU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_star_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1mRioG7MKYm1MkBkYP7+ZGzpXvhk/abx2ziQcNO0liU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_warning.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>joRw47jR0UIr47oe5qu0lMWREMg5GRi16nQl52CyuKQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_button_warning_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Wdv5HLAoW4bGxJM4T1wmUelk6PAb2qMZU5A3Lf6974U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_jump.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>d0N3ywVRSDbeXURNOJ2aosO/rS3bxQ36I84NHPOMICQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_jump_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>POz8JthAl8/jlKXhWAYj0+GY08OQfzn61gkVm5gSLRQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_jump_left_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sbRzMauq67drd7tclxKBBxw4AFjWQdlpsfDa1isdnDo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_jump_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZNnw6axy85ZRsgXlxv/jdT4LaPyfRuPnPGwfEPHNgHQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_SIP_close_press_web.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GhSZft+swr7lQIwdkngmhhdNQ8vcLxQ3XHamL8/z468=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/controls/button/00_icon_SIP_close_web_web.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>To418HiAHYbeZPRCLWfu2nCcfK9qKLCq/c1yj9APRDk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_Back.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ToMtHmWY1POFXGqq+DMDPgBqElMb7EN3w1Z0JyKsOtQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_Back_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9Ky2PeC+/jz/Re9piwxWH2jZd3gopoj0e0HQva2bCyY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_edit.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zDAjinF3Gj1g8fjJIwnxkyFflAtycvyj99Mi7pNQqGo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_edit_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>H+hBI50Jc6y8Wj/+YnhF3KFmLW1Sa9cm63g0URUsZ+M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_more.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>q9WMI+j1o3oJprW3zNld7nmE5ebkG92sfShsjobforY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_more_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z1UceklgnrkOGExbM0Q2B7MVv/R9WDQf7egH+zQndaM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2T6Zzrv5JjgO41+pwKx7zAGbZnjY7XGqhfPL/+OPH7U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_icon_plus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IRPzLe1DQCcnknaHjsEmzBFXBOuV4ZBtF/gKcGNQWik=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_toolbar_button_bg.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nvNPpqC97RtOx7MRvlwhNhPwUmj3NdS1hjpRcC3yJmg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_toolbar_button_bg.9_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JPrbEKEyOmW5z9JWzyzNE5fnm5+1mHy1JEZiXUWRHwE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/page/00_toolbar_button_ef.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bhAEge/rwVdWR2Aos+ZRbdbFX9PtY8esrAvO+1tLXIA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/images/popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UUq0YHcfW+bq05DS5ulptKSwcotu5qWbmmZxx4lt9Ak=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/theme.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+uIktYq1Y7jSTxkhweMB3ABVtUuK2Z4BeKueiqnITmg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-black/tizen-web-ui-fw-theme.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g+juVyOqXzh8vykC1ho7OpjUVlA/nM+9ZhVTk4gbBgA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_delete.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4LnVMlLqzxit/HT/3FsXqXJIUhJT1AfV7Cq2wpMqbMM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_dim.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>icFp+IA/JMMp74NMznv3A1t7ubQN8jDh1rf528DwZ3o=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_fullscreen_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oDIEsO4hPtzS1m1NQZClYbmDRrHbNav2hHk4edbEZu4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_fullscreen_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cREc81rtpHca6Uz0mZM4OWadNvU543g1iqLV0iDQLiI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>y0RtPa7+tOiJRNG0O/4vvJiA5GMZpyaEtiMRwNL6/l0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RvRM6aPoVlzedsYufaKJKBJ28ziBuaqWDgQ2oErPhpY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_pause.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yIQaybkc52k2yfckhcGxs2NgxwEFZER+07oM/KxTTqg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_play.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CWf3Ic0EbdUAHKI4qZ0u/wwDcKq4W1+rC+lqJD+yxkw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dIGR5Lk3uHvlKYrh0rO3PaSEWZpYu4My/JTjUZ3J8qA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_radio.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UX72DYs3UYK7b1oW91g/5sANepRVM8iOW7fpjUQxqfY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_radio_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3ZwJ/wP37rtAJxaZSzAYsTqegz0dZ2trHEV5Xu+pg/I=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_radio_press_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0QUeHFdpkICat14eR2ddnwX/Mi7DG3aI4dle+ZS0yuY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_button_radio_select.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BMfTigLpKbtNug0T7PoJLsppg2b5F50sn7+Z2wOOsSc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_check_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5iY46+QWiz9hM81/QEvLY/eaHl3j81F330rYksy8Jt4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_check_bg_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N+l3cc3QK/l7qKTI9EZEJlrz6CDL0fkCP2wdbYifyHI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_check_checking.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>A85c1r0JVPKPQZeFEP67llY1HHG/t0epBoc/L1ofdU4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_check_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>I3dmza9tMuZpNJ/5KuaobQ2uI9byMMIARsW3ZfvlkRM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_effect_title_tab_bounce_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>75tgi8vHb3STlC1xm3W0WA8NMurn4a3bDA6ryRHIjqI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_effect_title_tab_bounce_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HQO9/dATTILsV6eA705TmCBcBCi2SkSrYjYJYkyLQVA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_grid_overscrolling_bottom.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8ELOwwRCMvA5UVOmLC8bT5AebWGVZ9YcDXE3XBNTMH8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_grid_overscrolling_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yUsVfB65XGEQFlydYzzZXa0aNavvmI3i6dAqz+/zJoA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_grid_overscrolling_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>utBX8UxCryU/aN4J/+B2A21naHi+mr8NYAJImp5bTK0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_grid_overscrolling_top.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wHrM28jtWxIX/37X/naUKsRQ630MNiTktcBNoYYNyhk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_icon_cancel.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xT8cOGNhKOdjgN8TDyJXnOzl9xKkyKNiCjwYEB0RLLE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_icon_cancel_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bj9lgr9wT9Z0PmvUdWuY624oRDfVRTsatwNVD1h0YBk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_list_process_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fGsbNqMLwK25VNEwSC2j33Gurcj1ThR+LtHxu5KzY6A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_messagebubble_bg_receive.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wbzPYC9RH3MGH5NIMf66WoR703ZvI+TfaGE6R/SK5e0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_messagebubble_bg_sent.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JNMPJPooE/JIxKx9yl33oliaH40WMvLGFXIK1lyT64U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_messagebubble_date_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hKVGRCdHmI+CJCJEwivjIIS3J3h8Wv9vt6yBOa590HY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_Nocontents_multimedia.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fQWdXQjxMShqMQ4m1urmYML7GqVLkwkV+IcbbqI47rg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_Nocontents_picture.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+Lyiiq5QUzxZGzMY8Yxl/Q7QnJ/u8JXlI0ZfOaGAMpc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_Nocontents_text.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wSmO854fGRwz4VMxzGQMrTJ1pd1GxKhnSb2m3tLM990=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_Nocontents_unnamed.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zYIfg2l7Dj8gCwYLvhrlZpO/fEtW0idrUFf2DCnuqm8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_page_indicator_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Tj+1o+nOUsk0/+b4ti3jk0gn5DLkYUxrr1X3kR7vs+U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_page_indicator_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Xx6n/CDEE8Jp+OthgNZX0s/lL5ew/UascXlIwq5DmiQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_progress_bar.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xBODp6aPPdydpIC5QOc5NQi36CC4WAG0b6bPUNJU48Q=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_progress_bg.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FegzdwhlD4ywSPpwSw0wHHQk0vGVce1HGsufMUxQ54E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_scroll_bar_handler.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/vw42q0HP5fYYiROhyurwBupmJ3eKTOUj4gJA2IJ3C0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_scroll_bar_handler_hor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UDwivjXXlFomaBdY0zZIfEp9Zk+2YZRM8KchJF2jcsc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_splite_handler_h.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mG+/BVijPw2Q1zBs3Qk6ZDQipKtV/lKDZI9m5szsmwM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/00_splite_handler_v.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1gBtUiIAwphNalPKBUt6dyFelpBEDXY7/rRmJAaqZ+k=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/ajax-loader.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R7M2umG2Gi6wFOLoDoZSRI7t9S6MOWg2FAztJ5TUtt8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_field_btn_clear.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5Tk/JhopejyiuYvuSVePfWXcTmV/KS8L5mYGt5pgEgk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_field_btn_clear_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Oo+5ZtqyGrm07MJ5SOC8Z8z2dvmV9w15/2Lkc/bwCeo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_icon_favorite_off.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1EOifsMa1S6BRWQ6WVttlyT9M/14DXzHNYJsS1MAO/s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_icon_favorite_on.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gcD5I36rzjyRAfyHI1HKhtHHDM/pZLfK2mhhFDRxw8A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_search_icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PfeX+m+NMFgdXdMLXl2yhp2AwXX84FXETforWzvZEio=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_brightness_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aEnWfikUtxAnmCXcjxSKMn7JIirrD/7qfBmn23oxImw=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_brightness_01_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KqhXFl81yiFbLtowIVTYRx4nYzM2drTnKnBu5u/p0eg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_brightness_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oVcaWCB7qeh4cB8ojoDawM7dvBnPtpmHJJlxN5LP1Cc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_brightness_02_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Wj7vrr/x/74lcU2AEmERBuRRYtmL71x0scZz28JlTvg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_volume_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mhxPkGD2fiESMqBxi/lmDzMaxpGGyVKw0LFslhDCs5E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_volume_01_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MGimRpa6Yescn7pGbK1WsJFGwubRVGmsO7rx+XxMEjk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_volume_02.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xqdEg1BuP7wjg04oyVBTq8FZuEZhfpu4axiJetnZgPI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_button_volume_02_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eq2nSWQ7Wbk3tnzO2rI9GwlVaX+Ue3sHyTOUB4QRLeo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_handle.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>viSt0nXLeynLGtd/V4q6+AxPeHdqJz4xW/2tNhDFwLY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_handle_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BABPdob3Ffjt9yAPRZzLcYy0XqzoHkZ1ffOUeF/YwkA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/00_slider_popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pajxc3447oq3YzGCCQSDcWuAbcEazMiAKZLBw/anDmA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_back.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GPDGul+QafisTfGVGkzwVtEcwqCV+r556ZbsRCWtyIQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_back_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cEu2jqTTfhBtnzj7kxgM20HkfKbOfSXeAripBl1pIvY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_bars.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>njERBL20NvNM+gSL7a26cunoWNW18NJ8CxeIicqSAxY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_bars_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+LkrnUKkaTJ6etRpnQDYVrnv5mTNE7WV2ocItLJAboE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_call.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/Y7xpquXmZlPXa3Z94ng/elhEfCrlcpLq8bfVRUbgYc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_call_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SpT6hX8duSW8XXA1TXsoE1yCEZkzJFSXIxbMRIamee0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_check.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gYNWB5TJYqPY88LC3c+Zr0ZtlJr5SxowKk9NtqoMsHA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_check_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>smx0kj/uI9EhJ6M5OuzvNOK1oDBTYJU6euAaW/dprs4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_cancel.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7BdYUT+mSxDVrf1KMNxXdcl5emj+NObT4DwHm8cxUYs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_cancel_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QwT0w8lMzMYk72kVanP7cBI9lWCa8TFpvBVZk+5831w=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_closed.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lKc5Hs6F0MwrNjUdyrSnJJ6Di7lfJUYMrGYITyKG8sA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_closed_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yqqGSZ4Hw+E2ZOuusWGLKvps7RRx321RjzMzL/Hmq4A=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_minus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sJgQ93x2dlXd8z3X9GMHHqAGx+7dDzcRR3ZWCeDn9tI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_minus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IL9f+cd2gQK5BSv6fV+TB/GvWFeVnuw5VsH84xQuM9U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_opened.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XRIm335WDZXe3BEj6Q25xMxtuivN76XlKWLn7CK07p4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_opened_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JOexiTDteBMD4BjN2sWviOGlO8Bjlsw5fdRR55BgPJQ=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_send.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4dVH8LajijwjsHtcqfnRVtcgP8CltZPKv1pis2YVStc=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_expand_send_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CBTFktaQNXtxQjJKy+V4bP4DFk04OHrmyynEqgu4Nu8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_gear.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>X8f/uN7213z8K9/WM0P8+9qST/Jd/1wLglVBW/rw9Lk=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_gear_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9RB6+NfUQqNZUrLhgkww4ls4ySo29d+E0wb56FUm66s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_grid.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9vUzSKVL7C+ovaDmG/QXo2D5veQ8LcHlz6kY8sAkbpE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_grid_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j5ZFFPa8wWgjZz6oi50+J8d2SMGbVgwK5MqR6wXoWLU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_home.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fOJSlcWaDxXfkHLBFvv4eG9Bgvuc8+s+GImCuBPCv70=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_home_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wFdHX4g4d/ZpnoxrXIYeR5O7U7LSdvsDsLFy6K9n8J0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_info.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mvpHbPHORPDbiHMP17ttAciAJgF64AerxGrbh5C7/n8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_info_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/qwOjzr0r138SaYtw/WhvXJ8ta8o38AUU1zCXhHJaBY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aBvG9+QT7gBhiBooJVWkfC+hHUMSUc7Zg1mQabMfMpE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_left_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pNT11xSQXSy0RtpoCou0jizwm5gF9VdmmvfCwa7AJgE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>So8a3s20j/1z8BzDBOHRZqlZBvSIW4AzhOFTmictWRI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_plus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EtLU8eo3PC6pPEuO17xtKDR+/jZbZ7R1CYOQh+nWEyI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_refresh.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WXCnigKF7rlnoWr8TVnVTtO1NeMIkceX0ptue3f5/6Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_refresh_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HAyghMfR3glh7jbLEU6p7zsR6lGVEPPyEpUXjG0fPaI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_rename.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9yP5hYmGsQJQ7zRXeDfpA1rzAwoRbtpgR0iK4Au7i30=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_rename_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wyQWLSVhZ1emytck/us4HyeIPNRopgJzB93XuyLE9LM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_right.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m4MUOt+DPxByyu+MD18hfFDddjLFF764fDpY/1P4WUM=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_right_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/1qEOGlkH4m1mYzvJ6t4kruRtAAMMl9T6Wd4Z9DadFE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_search.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XfzgvLTVm2ve7T58wQqqkBqAw16HpX8+tvnya/3B8WU=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_search_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>q4TUUSE05v4d29eDHr8QHhKSt974qdqGgeGI2amk4Ag=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_star.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sxXcQIMOv8oGVtrXuRWkvVmvIlXWzNbbZX5zqE7Kwts=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_star_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/BxZBjDfubWDm0F5O6iyMU+GqODQtiYpL2mfU8v2bOs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_warning.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qvjbIh0WSIAipe9VgTBTXiVgF8akHf9CTGG7YffJsZs=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_button_warning_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xURZOWqACtUoWRnwdt08n48TLAxahu+w0Nh4PhRXM0k=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_jump.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XOeEH5Re6hWjuUauQUDXtJarm2ZC3S9uQ8OrgTtkp3E=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_jump_left.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dNCEt1tBOqN5dTMZoC1rYy/krmB0HQCLhDLQMtrO3O4=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_jump_left_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6Y/Rhz8WUJxl+xTNWyyYbyXN1sRvtPqKLeHrbeDDouI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_jump_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>05N1HkdMANb2IZbd6iqdUsvcfP3hsswMDshLSw1T86s=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_SIP_close_press_web.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AogvNnSr5VedF4e4f2ybkqwDF/YLNEUMllSlVvQLQXI=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/controls/button/00_icon_SIP_close_web_web.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OZ+tIqcypE4s0AnE9gnSL+luKj37lZc6HYuhMr6a7xY=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_Back.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VZf/f2cA+jQjlFeESWUNHRzv6K9oUoMjtAPtov28NiE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_Back_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NEgsQMN/LWwhcmaoA6RdmZJO1BAkDtJEbcReA7mi3zA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_edit.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zDAjinF3Gj1g8fjJIwnxkyFflAtycvyj99Mi7pNQqGo=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_edit_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>H+hBI50Jc6y8Wj/+YnhF3KFmLW1Sa9cm63g0URUsZ+M=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_more.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>953lBAdDPI8eTLOBapZaihRbdbv4QJ2M82kSNSPRS9Y=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_more_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TywqDpcKVrbHLVP5lbIsv1Bz/DcgtkTs1Z0FZgApM+8=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_plus.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2T6Zzrv5JjgO41+pwKx7zAGbZnjY7XGqhfPL/+OPH7U=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_icon_plus_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IRPzLe1DQCcnknaHjsEmzBFXBOuV4ZBtF/gKcGNQWik=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_toolbar_button_bg.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nvNPpqC97RtOx7MRvlwhNhPwUmj3NdS1hjpRcC3yJmg=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_toolbar_button_bg.9_press.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JPrbEKEyOmW5z9JWzyzNE5fnm5+1mHy1JEZiXUWRHwE=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/page/00_toolbar_button_ef.9.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bhAEge/rwVdWR2Aos+ZRbdbFX9PtY8esrAvO+1tLXIA=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/images/popup_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UUq0YHcfW+bq05DS5ulptKSwcotu5qWbmmZxx4lt9Ak=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/theme.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TWGnmI7y4KMYcrLGxaloO/UCl7ujzRBLagot3vH/+is=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/latest/themes/tizen-white/tizen-web-ui-fw-theme.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+ikEiusAH/GErSt8a3ohW6pgeYU/VgmJi6fT46gFqk0=</DigestValue>
+</Reference>
+<Reference URI="tizen-web-ui-fw/VERSION">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VNQVYtc2SWSZsxMvJJVl/WFBNgFyOSJ7pSG4VPtZJaQ=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u/jU3U4Zm5ihTMSjKGlGYbWzDfRkGphPPHx3gJIYEJ4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+SkGthrTWO31SEr/ZwwCvxWZ9FwP7N371qzFFZYAuN4QNBkeXVSsWKraK/RXGp6L8y/veNMa37rTD
+p4cMNuLedM8yqoGkkjHGlgeSBFbGREQmCDiq5tyXOcbR3vIBbHowMGPot80B06eSTaGad8qvMDxH
+1yDsNZHHqw4Afb4m8Cc=
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIICmzCCAgQCCQDXI7WLdVZwiTANBgkqhkiG9w0BAQUFADCBjzELMAkGA1UEBhMCS1IxDjAMBgNV
+BAgMBVN1d29uMQ4wDAYDVQQHDAVTdXdvbjEWMBQGA1UECgwNVGl6ZW4gVGVzdCBDQTEiMCAGA1UE
+CwwZVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEkMCIGA1UEAwwbVGl6ZW4gUHVibGljIERpc3Ry
+aWJ1dG9yIENBMB4XDTEyMTAyOTEzMDMwNFoXDTIyMTAyNzEzMDMwNFowgZMxCzAJBgNVBAYTAktS
+MQ4wDAYDVQQIDAVTdXdvbjEOMAwGA1UEBwwFU3V3b24xFjAUBgNVBAoMDVRpemVuIFRlc3QgQ0Ex
+IjAgBgNVBAsMGVRpemVuIERpc3RyaWJ1dG9yIFRlc3QgQ0ExKDAmBgNVBAMMH1RpemVuIFB1Ymxp
+YyBEaXN0cmlidXRvciBTaWduZXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALtMvlc5hENK
+90ZdA+y66+Sy0enD1gpZDBh5T9RP0oRsptJv5jjNTseQbQi0SZOdOXb6J7iQdlBCtR343RpIEz8H
+mrBy7mSY7mgwoU4EPpp4CTSUeAuKcmvrNOngTp5Hv7Ngf02TTHOLK3hZLpGayaDviyNZB5PdqQdB
+hokKjzAzAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAvGp1gxxAIlFfhJH1efjb9BJK/rtRkbYn9+Ez
+GEbEULg1svsgnyWisFimI3uFvgI/swzr1eKVY3Sc8MQ3+Fdy3EkbDZ2+WAubhcEkorTWjzWz2fL1
+vKaYjeIsuEX6TVRUugHWudPzcEuQRLQf8ibZWjbQdBmpeQYBMg5x+xKLCJc=
+</X509Certificate>
+<X509Certificate>
+MIICtDCCAh2gAwIBAgIJAMDbehElPNKvMA0GCSqGSIb3DQEBBQUAMIGVMQswCQYDVQQGEwJLUjEO
+MAwGA1UECAwFU3V3b24xDjAMBgNVBAcMBVN1d29uMRYwFAYDVQQKDA1UaXplbiBUZXN0IENBMSMw
+IQYDVQQLDBpUVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEpMCcGA1UEAwwgVGl6ZW4gUHVibGlj
+IERpc3RyaWJ1dG9yIFJvb3QgQ0EwHhcNMTIxMDI5MTMwMjUwWhcNMjIxMDI3MTMwMjUwWjCBjzEL
+MAkGA1UEBhMCS1IxDjAMBgNVBAgMBVN1d29uMQ4wDAYDVQQHDAVTdXdvbjEWMBQGA1UECgwNVGl6
+ZW4gVGVzdCBDQTEiMCAGA1UECwwZVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEkMCIGA1UEAwwb
+VGl6ZW4gUHVibGljIERpc3RyaWJ1dG9yIENBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe
+OTS/3nXvkDEmsFCJIvRlQ3RKDcxdWJJp625pFqHdmoJBdV+x6jl1raGK2Y1sp2Gdvpjc/z92yzAp
+bE/UVLPh/tRNZPeGhzU4ejDDm7kzdr2f7Ia0U98K+OoY12ucwg7TYNItj9is7Cj4blGfuMDzd2ah
+2AgnCGlwNwV/pv+uVQIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBACqJ
+KO33YdoGudwanZIxMdXuxnnD9R6u72ltKk1S4zPfMJJv482CRGCI4FK6djhlsI4i0Lt1SVIJEed+
+yc3qckGm19dW+4xdlkekon7pViEBWuyHw8OWv3RXtTum1+PGHjBJ2eYY4ZKIpz73U/1NC16sTB/0
+VhfnkHwPltmrpYVe
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>

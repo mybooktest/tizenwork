@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi">
+
+
+<title>AreWeThereYet</title>
+<link rel="stylesheet" href="./css/jquery.mobile.1.2.0.css" />
+<link rel="stylesheet" href="./css/jquery.mobile.structure-1.2.0.css" />
+<link rel="stylesheet" href="./css/jquery.mobile.theme-1.2.0.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/deCarta.css" />
+<script type="text/javascript" src="./js/lib/external/jquery-1.8.1.js"></script>
+<script type="text/javascript"
+	src="./js/lib/external/jquery.mobile-1.2.0.js"></script>
+<script type="text/javascript" src="./js/lib/tizen/tizen.js"></script>
+<script type="text/javascript" src="./js/lib/tizen/tizen.logger.js"></script>
+<script type="text/javascript" src="./js/lib/tizen/tizen.network.js"></script>
+<script type="text/javascript" src="./js/lib/tizen/tizen.view.js"></script>
+<script type="text/javascript" src="./js/lib/tizen/tizen.visibility.js"></script>
+<script type="text/javascript" src="./js/lib/external/deCarta.JS3.js"></script>
+<script type="text/javascript" src="./js/lib/external/Config.js"></script>
+<script type="text/javascript" src="./js/geolocation.js"></script>
+<script type="text/javascript" src="./js/pickDestOnMap.js"></script>
+<script type="text/javascript" src="./js/simpleNotification.js"></script>
+<script type="text/javascript" src="./js/destinations.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/gmap.js"></script>
+<script type="text/javascript" src="./js/decarta.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="main">
+		<div data-role="header" data-theme="d">
+			<h1>Are We There Yet?</h1>
+		</div>
+
+		<div data-role="content">
+			<ul data-role="listview" id="alarm-all-list">
+			</ul>
+		</div>
+
+		<div data-role="footer" data-theme="d" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar" data-style="toolbar">
+				<ul>
+					<li><a href="#decarta">Wake me in...</a></li>
+					<li><a id="exit">Exit</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="popup" class="popup">
+			<a href="#" data-rel="back" data-role="button" data-theme="d"
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+			<p></p>
+		</div>
+	</div>
+
+	<div data-role="page" id="decarta">
+		<div data-role="header" data-theme="d">
+			<h1>Are We There Yet?</h1>
+		</div>
+
+		<div data-role="content" data-theme="d">
+			<ul data-role="listview" id="list">
+				<li><a href="#addr-to-pos">Find a destination by name</a></li>
+				<li><a href="#pickDestOnMap">Pick a destination on a map</a></li>
+				<li data-role="list-divider">Current position</li>
+				<li><label for="latitude">Latitude</label> <input type="number"
+					name="latitude" id="dec-latitude-start" value="" /></li>
+				<li><label for="longitude">Longitude</label> <input
+					type="number" name="longitude" id="dec-longitude-start"
+					value="" /></li>
+				<li><label for="country">Country</label> <input type="text"
+					name="country" id="dec-country-start" /></li>
+				<li><label for="city">City</label> <input type="text"
+					name="city" id="dec-city-start" /></li>
+				<li data-role="list-divider">Destination</li>
+				<li><label for="latitude">Latitude</label> <input type="number"
+					name="latitude" id="dec-latitude-end" value="" /></li>
+				<li><label for="longitude">Longitude</label> <input
+					type="number" name="longitude" id="dec-longitude-end"
+					value="" /></li>
+				<li id="beforeMap"><input type="text" name="distance"
+					id="dec-distance" readonly="readonly"/></li>
+				<li id="mapContainer"></li>
+				<li>
+					<fieldset data-role="controlgroup" data-type="horizontal">
+						<legend>Waking radius:</legend>
+						<input type="radio" name="radius" id="1-km" value="1000" />
+						<label for="1-km">1 km</label> <input type="radio" name="radius"
+							id="5-km" value="5000" checked="checked" /> <label for="5-km">5
+							km</label> <input type="radio" name="radius" id="10-km" value="10000" />
+						<label for="10-km">10 km</label>
+					</fieldset>
+				</li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-id="fool" data-theme="d"
+			data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar" data-style="toolbar">
+				<ul>
+					<li><a id="dec-alarm-save">Create Alarm</a></li>
+					<li><a href="#main">Back</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="popup" class="popup">
+			<a href="#" data-rel="back" data-role="button" data-theme="a"
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+			<p></p>
+		</div>
+	</div>
+
+	<div data-role="page" id="addr-to-pos">
+		<div data-role="header" data-position="fixed">
+			<h1>Address to position</h1>
+		</div>
+
+		<div data-role="content">
+			<ul data-role="listview">
+				<li data-role=list-divider>Address</li>
+				<li><label for="country">Country</label><select
+					id="country-select">
+						<option value="AU">Australia</option>
+						<option value="BR">Brazil</option>
+						<option value="CA">Canada</option>
+						<option value="DE">Germany</option>
+						<option value="ES">Spain</option>
+						<option value="GH">Ghana</option>
+						<option value="IN">India</option>
+						<option value="PL">Poland</option>
+						<option value="PT">Portugal</option>
+						<option value="US">United States</option>
+				</select></li>
+				<li><label for="city">City</label> <input type="text"
+					name="city" id="city" value="Sydney" /></li>
+				<li><label for="street">Street</label> <input type="text"
+					name="street" id="street" /></li>
+			</ul>
+		</div>
+
+		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar" data-style="toolbar">
+				<ul>
+					<li><a id="addr-to-pos-convert">Convert address to
+							position</a></li>
+					<li><a href="#decarta">Back</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="popup" class="popup">
+			<a href="#" data-rel="back" data-role="button" data-theme="d"
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+			<p></p>
+		</div>
+	</div>
+
+	<div data-role="page" id="pickDestOnMap">
+		<div data-role="header" data-position="fixed">
+			<h1>Pick a destination on a map</h1>
+		</div>
+		<div id="mapToPick"></div>
+		<div data-role="footer" data-id="fool" data-theme="d"
+			data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar" data-style="toolbar">
+				<ul>
+					<li><a id="destinationSave">Save</a></li>
+					<li><a href="#decarta">Back</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="popup" class="popup">
+			<a href="#" data-rel="back" data-role="button" data-theme="a"
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+			<p></p>
+		</div>
+	</div>
+	<div data-role="page" id="alarm">
+		<div data-role="header" data-position="fixed">
+			<h1>Alarm</h1>
+		</div>
+
+		<audio controls="controls" id="mp3">
+			<source src="galaxy.mp4" type="audio/mpeg">
+
+		
+		</audio>
+		<button id="stop-playing">STOP</button>
+
+		<div data-role="footer" data-id="fool" data-theme="d"
+			data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar" data-style="toolbar">
+				<ul>
+					<li><a href="#main">Back</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

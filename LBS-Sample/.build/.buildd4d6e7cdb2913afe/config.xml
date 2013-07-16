@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/AreWeThereYet" version="1.0a" viewmodes="fullscreen">
+	<name>AreWeThereYet</name>
+	<icon src="icon.png"/>
+	<content src="index.html"/>
+    
+	<access origin="http://decarta.com" subdomains="true"/>
+    <access origin="http://decartahws.com" subdomains="true"/>
+    
+	<feature name="http://tizen.org/api/tizen" required="true"/>
+	<feature name="http://tizen.org/api/application.read" required="true"/>
+	<feature name="http://tizen.org/api/application" required="true"/>
+    <feature name="http://tizen.org/api/application.launch" required="true"/>
+    <feature name="http://tizen.org/api/notification" required="true"/>
+    
+	<tizen:application id="smart8alar" required_version="1.0"/>
+<tizen:setting screen-orientation="portrait" contextmenu="enable"/>
+<tizen:appservice src="index.html" operation="http://tizen.org/appcontrol/operation/view"/>
+<author email="t.wlodarkiew@samsung.com, t.scislo@samsung.com">Tadeusz Wlodarkiewicz, Tomasz Scislo</author>
+<feature name="http://tizen.org/api/systeminfo" required="true"/>
+</widget>

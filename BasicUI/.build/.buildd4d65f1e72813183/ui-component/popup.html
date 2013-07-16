@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Navigation</title> 
+  <!--NOTE:
+        jquery.js and web-ui-fw.js must be included.
+        DO NOT REMOVE below code!
+    --> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/jquery.js"></script> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js" data-framework-theme="tizen-white"></script> 
+  <!--NOTE:
+        Additional scripts and css files are to be placed here.
+        You can use jQuery namespace($) and all functionalities in jQuery
+        in your script.  For example:
+
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="my.css">
+    --> 
+  <script type="text/javascript" src="./js/main.js"></script> 
+  <link rel="stylesheet" type="text/css" href="./css/style.css" /> 
+ </head> 
+ <body> 
+  <div data-role="page"> 
+   <div data-role="header" data-position="fixed" data-id="foo"> 
+    <h1>Popup</h1> 
+   </div>
+   <!-- /header --> 
+   <div data-role="content"> 
+    <ul data-role="listview" data-autodividers="false"> 
+     <li><a href="#center_info" data-inline="true" data-rel="popup" data-position-to="window">Popup</a></li> 
+     <li><a href="#center_title_1btn" data-inline="true" data-rel="popup" data-position-to="window">Popup with title</a></li> 
+    </ul> 
+    <!--center_info basic pop-up--> 
+    <div id="center_info" data-role="popup" class="center_info"> 
+     <div class="ui-popup-text"> 
+      <p>Pop-up dialog box, a child window that blocks user interaction to the parent windows </p> 
+     </div> 
+    </div> 
+    <!--center_title_1btn pop-up with a title and button--> 
+    <div id="center_title_1btn" data-role="popup" class="center_title_1btn"> 
+     <div class="ui-popup-title"> 
+      <h1>Popup title</h1> 
+     </div> 
+     <div class="ui-popup-text">
+       Pop-up dialog box, a child window that blocks user interaction to the parent windows 
+     </div> 
+     <div class="ui-popup-button-bg"> 
+      <a data-role="button" data-rel="back" data-inline="true">Button</a> 
+     </div> 
+    </div> 
+   </div> 
+   <div data-role="footer" data-id="foo1"> 
+    <div data-role="controlgroup" data-type="horizontal"> 
+     <a data-role="button" data-icon="back" href="../index.html">Back</a> 
+    </div> 
+   </div>
+   <!-- /footer --> 
+  </div>
+  <!-- /page -->   
+ </body>
+</html>

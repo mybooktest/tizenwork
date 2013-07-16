@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Navigation</title>
+    <!--NOTE:
+        jquery.js and web-ui-fw.js must be included.
+        DO NOT REMOVE below code!
+    -->
+    <script src="tizen-web-ui-fw/latest/js/jquery.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js"
+        data-framework-theme="tizen-white"></script>
+
+    <!--NOTE:
+        Additional scripts and css files are to be placed here.
+        You can use jQuery namespace($) and all functionalities in jQuery
+        in your script.  For example:
+
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="my.css">
+    -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed" data-id="foo">
+            <h1>CheckBox</h1>
+        </div><!-- /header -->
+        
+        <div data-role="content">
+			<input type="checkbox" name="mycheck" id="check-test" class="favorite" />
+			<label for="check-test">Favorite</label>
+			<input type="checkbox" name="check-favorite" id="check-test2" checked="checked" disabled="disabled" class="favorite" />
+			<label for="check-test2">Favorite Checked, Disabled</label>
+        </div>
+
+        <div data-role="footer" data-id="foo1">
+            <div data-role="controlgroup" data-type="horizontal">
+                <a data-role="button" data-icon="back" href="../index.html">Back</a>
+            </div>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>

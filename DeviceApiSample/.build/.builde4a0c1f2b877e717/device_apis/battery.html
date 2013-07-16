@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Battery API</title>
+    <script src="tizen-web-ui-fw/latest/js/jquery.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script>
+    <script src="tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js"
+        data-framework-theme="tizen-white"></script>
+
+	<!-- Battery -->
+
+<script>
+	// As Tizen is webkit-­‐based, webkit prefix is used.
+	var battery = navigator.battery || navigator.webkitBattery;
+
+	window.addEventListener('load', function (e) {
+		if(e) {
+			console.log(e);
+			return;
+		}
+
+						// battery.charging : true or false
+						document.querySelector('#charging').textContent = battery.charging ? 'charging'
+								: 'not charging';
+						// battery.chargingTime : second(ex: 3600) or Infinity
+						document.querySelector('#chargingTime').textContent = battery.chargingTime / 60;
+						//battery.dischargingTime: second(ex: 3600) or Infinity
+						document.querySelector('#dischargingTime').textContent = battery.dischargingTime / 60;
+						//battery.level:between 0 and 1 (ex: 0.50)
+						document.querySelector('#level').textContent = Math
+								.floor(battery.level * 100)
+								+ '%';
+
+						console.log("battery api html called");
+					});
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed" data-id="foo">
+            <h1>Navigation Application</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">
+			<div>charging: <span id="charging"></span></div>
+			<div>chargingTime: <span id="chargingTime"></span></div>
+			<div>dischargingTime:
+			<span id="dischargingTime"></span></div>
+			<div>level: <span id="level"></span></div>
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-id="foo1">
+            <div data-role="controlgroup" data-type="horizontal">
+                <a data-role="button" href="index.html">Main</a>
+                <a data-role="button" href="section1.html">Music</a>
+                <a data-role="button" href="section2.html">Artist</a>
+            </div><!-- /navbar -->
+        </div><!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>

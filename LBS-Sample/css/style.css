@@ -1,0 +1,12 @@
+body {
+	
+}
+
+#mapContainer {
+	height: 200px;
+}
+
+#mapToPick {
+	width: 360px;
+	height: 600px;
+}

@@ -1,0 +1,61 @@
+var startTime;
+var checkTime;
+
+//Initialize function
+var init = function () {
+  window.onload = function() {
+    // Normalize the various vendor prefixed versions of getUserMedia.
+    navigator.getUserMedia = (navigator.getUserMedia ||
+      navigator.webkitGetUserMedia ||
+      navigator.mozGetUserMedia || 
+      navigator.msGetUserMedia);
+
+      if (navigator.getUserMedia) {
+        navigator.getUserMedia(// Request the camera.
+          // Constraints
+          {
+            video: true
+          },
+          // Success Callback
+          function(localMediaStream) {
+            var video = document.querySelector('video');
+            video.src = window.URL.createObjectURL(localMediaStream);
+            video.onloadedmetadata = function(e) {
+               // Do something with the video here.
+            };
+          },
+      
+          // Error Callback
+          function(err) {
+            // Log the error to the console.
+            console.log('The following error occurred when trying to use getUserMedia: ' + err);
+          }
+        );
+      
+      } else {
+        alert('Sorry, your browser does not support getUserMedia');
+      }
+  }
+  console.log("init() called");
+};
+// window.onload can work without <body onload="">
+window.onload = init;
+
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('divbutton1').innerHTML="Current time: " + h + ":" + m + ":" + s;
+    t = setTimeout(startTime, 250);
+}
+
+function checkTime(i) {
+    if (i < 10) {
+        i="0" + i;
+    }
+    return i;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Navigation</title> 
+  <!--NOTE:
+        jquery.js and web-ui-fw.js must be included.
+        DO NOT REMOVE below code!
+    --> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/jquery.js"></script> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/tizen-web-ui-fw-libs.js"></script> 
+  <script src="/usr/share/tizen-web-ui-fw/latest/js/tizen-web-ui-fw.js" data-framework-theme="tizen-white"></script> 
+  <!--NOTE:
+        Additional scripts and css files are to be placed here.
+        You can use jQuery namespace($) and all functionalities in jQuery
+        in your script.  For example:
+
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="my.css">
+    --> 
+  <script type="text/javascript" src="./js/main.js"></script> 
+  <link rel="stylesheet" type="text/css" href="./css/style.css" /> 
+ </head> 
+ <body> 
+  <div data-role="page"> 
+   <div data-role="header" data-position="fixed" data-id="foo"> 
+    <h1>Button</h1> 
+   </div>
+   <!-- /header --> 
+   <div data-role="content"> 
+    <!-- 1 --> 
+    <li data-role="list-divider" data-line="false" class="ui-datetime-text-sub">Date/Time Picker(Custom) - <span id="selected-date1"><em>(select a date first)</em></span> </li> 
+    <li class="ui-li-dialogue ui-datetime"> 
+     <div class="ui-datetime-text-main"> 
+      <input type="datetime" name="demo-date" id="demo-date" data-format="MMM dd yyyy hh:mm tt" value="2012-06-30T00:00:00+09:00" /> 
+     </div> </li> 
+    <!-- 2 --> 
+    <li data-role="list-divider" data-line="false" class="ui-datetime-text-sub">Data Format(MMMM) - <span id="selected-date6"><em>(select a date first)</em></span> </li> 
+    <li class="ui-li-dialogue ui-datetime ui-datetime"> 
+     <div class="ui-datetime-text-main"> 
+      <input data-format="MMMM/dd/yyyy hh:mm tt" id="datetest" value="2013/1/31 15:08:44" type="datetime" /> 
+     </div> </li> 
+    <!-- 3 --> 
+    <li class="ui-li-dialogue ui-datetime ui-datetime"> 
+     <div class="ui-datetime-text-main"> 
+      <input data-format="MMMM/dd/yyyy hh:mm tt" id="datetest1" type="datetime" /> 
+     </div> </li> 
+    <!-- 4 --> 
+    <li class="ui-li-dialogue ui-datetime ui-datetime"> 
+     <div class="ui-datetime-text-main"> 
+      <input data-format="hh:mm tt" id="datetest2" type="time" /> 
+     </div> </li> 
+    <script>
+				$("#datetest").on(
+						"change",
+						function() {
+							$("#selected-date6").text(
+									$("#datetest").datetimepicker("value"));
+						});
+			</script> 
+   </div> 
+   <div data-role="footer" data-id="foo1"> 
+    <div data-role="controlgroup" data-type="horizontal"> 
+     <a data-role="button" data-icon="back" href="../index.html">Back</a> 
+    </div> 
+   </div>
+   <!-- /footer --> 
+  </div>
+  <!-- /page -->   
+ </body>
+</html>
